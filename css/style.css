@@ -29,17 +29,23 @@ header {
 	.head-t {
 	position:absolute;
 	text-align:right;
-	margin-top:80px;
+	margin-top:30px;
+	}
+	.head-t0 {
+	font-size:60px;
+	color: lightgreen;
+	margin-right:40px;
+	text-shadow:3px 3px 0 black, -3px -3px 0 black;
 	}
 	.head-t1 {
 	font-size:60px;
-	color: brown;
-	margin-right:40px;
+	color: orange;
+	text-shadow:3px 3px 0 black, -3px -3px 0 black;
 	}
 	.head-t2 {
-	font-size:40px;
-	color: darkblue;
-	margin-right:40px;
+	font-size:30px;
+	color: brown;
+	margin-right:30px;
 	}
 
 ////  🔴 تیتر پایین 🔴 ///
