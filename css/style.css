@@ -1,0 +1,48 @@
+
+body {
+background-image:url("../media/bk002.jpg");
+}
+.body {
+font-family:vazirbk;
+text-align:center;
+}
+#vazir {
+font-family: vazirbd;
+}
+#sahelb {
+font-family: SahelBlack;
+}
+
+
+////  🔴 تیتر بالا 🔴 ///
+header {
+
+}
+	.divhead {
+	width:390px;
+	border:4px ridge gold;
+	border-radius: 10px;
+	}
+	header>div>img {
+	width:380px;
+	}
+	.head-t {
+	position:absolute;
+	text-align:right;
+	margin-top:80px;
+	}
+	.head-t1 {
+	font-size:60px;
+	color: brown;
+	margin-right:40px;
+	}
+	.head-t2 {
+	font-size:40px;
+	color: darkblue;
+	margin-right:40px;
+	}
+
+////  🔴 تیتر پایین 🔴 ///
+footer {
+
+}
