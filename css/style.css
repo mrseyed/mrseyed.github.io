@@ -29,12 +29,12 @@ header {
 	.head-t {
 	position:absolute;
 	text-align:right;
-	margin-top:30px;
+	margin-top:20px;
 	}
 	.head-t0 {
-	font-size:60px;
+	font-size:55px;
 	color: lightgreen;
-	margin-right:40px;
+	margin-right:20px;
 	text-shadow:3px 3px 0 black, -3px -3px 0 black;
 	}
 	.head-t1 {
@@ -45,7 +45,8 @@ header {
 	.head-t2 {
 	font-size:30px;
 	color: brown;
-	margin-right:30px;
+	margin-right:25px;
+		text-shadow:1px 1px 0 white, -1px -1px 0 white;
 	}
 
 ////  🔴 تیتر پایین 🔴 ///
