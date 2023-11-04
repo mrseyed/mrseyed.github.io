@@ -62,7 +62,7 @@ footer {
 
 .div-time {
 width:130px;
-border:2px solid red;
+border:2px solid gray;
 background-color:black;
 color:yellow;
 margin-top:-10px;
@@ -73,7 +73,7 @@ margin-right:10px;
 }
 .div-date {
 width:130px;
-border:2px solid red;
+border:2px solid gray;
 background-color:black;
 color:yellow;
 margin-top:-10px;
@@ -84,7 +84,7 @@ margin-right:250px;
 }
 .div-day {
 width:100px;
-border:2px solid red;
+border:2px solid gray;
 background-color:black;
 color:white;
 margin-top:-10px;
