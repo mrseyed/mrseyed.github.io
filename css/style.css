@@ -9,8 +9,11 @@ text-align:center;
 #vazir {
 font-family: vazirbd;
 }
-#sahelb {
+&#sahelb {
 font-family: SahelBlack;
+}
+#led {
+font-family: led08;
 }
 
 
@@ -52,4 +55,41 @@ header {
 ////  🔴 تیتر پایین 🔴 ///
 footer {
 
+}
+
+
+
+
+.div-time {
+width:120px;
+border:2px solid orange;
+background-color:black;
+color:lightgreen;
+margin-top:-10px;
+border-radius:5px;
+font-size:18px;
+position:absolute;
+margin-right:10px;
+}
+.div-date {
+width:120px;
+border:2px solid red;
+background-color:black;
+color:lightgreen;
+margin-top:-10px;
+border-radius:5px;
+position:absolute;
+font-size:18px;
+margin-right:260px;
+}
+.div-day {
+width:120px;
+border:2px solid red;
+background-color:black;
+color:lightgreen;
+margin-top:-10px;
+border-radius:5px;
+position:absolute;
+font-size:18px;
+margin-right:135px;
 }
