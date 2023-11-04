@@ -59,7 +59,6 @@ footer {
 
 
 
-
 .div-time {
 width:130px;
 border:2px solid gray;
@@ -92,4 +91,11 @@ border-radius:5px;
 position:absolute;
 font-size:20px;
 margin-right:145px;
+}
+
+.div-fram {
+width:390px;
+border:4px ridge gold;
+border-radius: 10px;
+height:50px;
 }
