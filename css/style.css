@@ -61,35 +61,35 @@ footer {
 
 
 .div-time {
-width:120px;
-border:2px solid orange;
+width:130px;
+border:2px solid red;
 background-color:black;
-color:lightgreen;
+color:yellow;
 margin-top:-10px;
 border-radius:5px;
-font-size:18px;
+font-size:20px;
 position:absolute;
 margin-right:10px;
 }
 .div-date {
-width:120px;
+width:130px;
 border:2px solid red;
 background-color:black;
-color:lightgreen;
+color:yellow;
 margin-top:-10px;
 border-radius:5px;
 position:absolute;
-font-size:18px;
-margin-right:260px;
+font-size:20px;
+margin-right:250px;
 }
 .div-day {
-width:120px;
+width:100px;
 border:2px solid red;
 background-color:black;
-color:lightgreen;
+color:white;
 margin-top:-10px;
 border-radius:5px;
 position:absolute;
-font-size:18px;
-margin-right:135px;
+font-size:20px;
+margin-right:145px;
 }

@@ -32,6 +32,7 @@
 <script src="js/jquery.min.js" ></script>
 <script src="js/4/bootstrap.min.js"></script>
 <script src="js/5/bootstrap.min.js"></script>
+<script type="text/javascript" src="js/tarikh.js"></script>
 </head>
 <body><div class="body" >
 
@@ -51,32 +52,40 @@
  <center>
  
  <div class="div-time" align="center" >
-  <table id="led" >
+  <table id="led" style="font-weight:bolder;" >
    <tr>
-    <th><span id="ms" ></th>
+    <th><span id="ms" ></span></th>
     <th>.</th>
-    <th><span id="md" ></th>
+    <th><span id="md" ></span></th>
     <th>:</th>
-    <th><span id="mh" ></th>
+    <th><span id="mh" ></span></th>
    </tr>
   </table>
  </div>
 <script type="text/javascript" src="js/saat.js"></script>
   <div class="div-day" align="center" >
-   <span id="vazir" >یکشنبه</span>
+   <span id="xhafte" style="font-family:vazirbd" ></span>
   </div>
  <div class="div-date" align="center" >
   <table id="vazir" >
    <tr> 
-    <th>00</th>
+    <th><span id="xday" ></span></th>
     <th>/</th>
-    <th>00</th>
+    <th><span id="xmaah" ></span></th>
     <th>/</th>
-    <th>0000</th>
+    <th>1402</th>
    </tr>
   </table>
  </div>
-
+<script type="text/javascript" src="js/tarikh.js"></script>
+<script type="text/javascript">
+if(xborj < 10){
+  document.getElementById("xmaah").innerHTML = "0" +  xborj;    
+}else{
+  document.getElementById("xmaah").innerHTML = xborj;    
+}
+</script>
+<script type="text/javascript" src="js/tarikh.js"></script>
 </center>
 </div></body>
 
