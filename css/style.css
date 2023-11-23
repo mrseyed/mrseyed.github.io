@@ -114,3 +114,28 @@ width:120px;
 margin-bottom:5px;
 height:35px;
 }
+#btn {
+border:1px solid black;
+font-family:SahelBlack;
+font-size:30px;
+width:350px;
+margin-bottom:5px;
+margin-top:5px;
+}
+
+
+.main-fram {
+border:4px ridge gold;
+width:385px;
+border-top-right-radius:10px;
+border-top-left-radius:10px;
+margin-top:10px;
+background-color:lightyellow;
+}
+.title-fram {
+font-size:25px;
+margin-right:10px;
+text-align:right;
+color:orange
+
+}
