@@ -9,10 +9,10 @@ var xRoooz;
 var xborj;
 if(chandom >= 21){
 xRoooz = chandom -= 22;
-xborj = mh -= 1;
+xborj = mh += 11;
 }else{
-xRoooz = chandom += 9;
-xborj = mh -= 2;
+xRoooz = chandom += 11;
+xborj = mh += 10;
 }
 
 if(xRoooz < 10){
