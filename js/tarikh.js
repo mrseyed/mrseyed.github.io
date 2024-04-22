@@ -15,6 +15,7 @@ xRoooz = chandom += 12;
 xborj = mh -= 2;
 }
 
+
 if(xRoooz < 10){
   document.getElementById("xday").innerHTML = "0" + xRoooz;
 }else{
