@@ -65,29 +65,30 @@
   </table>
  </div>
 <script type="text/javascript" src="js/saat.js"></script>
+
   <div class="div-day" align="center" >
-   <span id="xhafte" style="font-family:vazirbd" ></span>
+   <span id="dhafte" style="font-family:vazirbd" ></span>
   </div>
  <div class="div-date" align="center" >
   <table id="vazir" >
    <tr> 
-    <th><span id="xday" ></span></th>
-    <th>/</th>
-    <th><span id="xmaah" ></span></th>
+    <th><span id="neww" ></span></th>
     <th>/</th>
     <th>1403</th>
    </tr>
   </table>
  </div>
-<script type="text/javascript" src="js/tarikh.js"></script>
+  <script type="text/javascript" src="js/newt.js"></script>
 <script type="text/javascript">
-if(xborj < 10){
-  document.getElementById("xmaah").innerHTML = "0" +  xborj;    
-}else{
-  document.getElementById("xmaah").innerHTML = xborj;    
-}
+var date = new Date();
+var hafte = date.getDay();
+var shanbe = [" یکشنبه "," دوشنبه ", " سه‌شنبه ", " چهارشنبه ", " پنجشنبه ", " جمعه ", " شنبه "];
+document.getElementById("dhafte").innerHTML = shanbe[hafte];
 </script>
-<script type="text/javascript" src="js/tarikh.js"></script>
+<script type="text/javascript">
+document.getElementById("neww").innerHTML = bm[today];
+</script>
+
 
   <div class="div-fram" >
    <button class="btn dark" id="btn-menu" style="margin-top:20px" >صفحه اصلی</button>
@@ -100,8 +101,9 @@ if(xborj < 10){
   </div>
 
   <div class="div-fram" >
-   <p>چا</p>
+
   </div>
+
 </center>
 </div></body>
 
