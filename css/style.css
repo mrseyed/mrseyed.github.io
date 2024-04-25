@@ -147,3 +147,29 @@ width:385px;
 border:3px ridge black;
 border-radius:15px;
 }
+
+.form-post {
+width:380px;
+border:4px ridge black;
+border-radius: 10px;
+margin-top:-40px;
+background-image:url("../media/bak-post1.jpg");
+}
+.title-post1 {
+color:yellow;
+font-family: SahelBlack;
+font-size:23px;
+margin-top:5px;
+position:absolute;
+margin-right:80px;
+text-shadow: 1px 1px 0 black,-1px -1px black;
+}
+.title-post2 {
+color:lightyellow;
+font-family: SahelBlack;
+font-size:23px;
+margin-top:37px;
+position:absolute;
+margin-right:140px;
+text-shadow: 1px 1px 0 black,-1px -1px black;
+}
