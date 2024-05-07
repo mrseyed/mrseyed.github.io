@@ -1,6 +1,6 @@
 
 body {
-background-image:url("../media/bk002.jpg") no-repeat;
+background-image:url("../media/bk002.jpg");
 font-family:vazirbk;
 text-align:center;
 }
@@ -8,7 +8,7 @@ text-align:center;
 font-family:vazirbk;
 text-align:center;
 }
-#vazir {
+	#vazir {
 font-family: vazirbd;
 }
 #sahelb {
