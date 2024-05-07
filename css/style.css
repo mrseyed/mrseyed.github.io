@@ -1,6 +1,6 @@
 
 body {
-background-image:url("../media/bk002.jpg");
+background-image:url("../media/bk002.jpg") no-repeat;
 font-family:vazirbk;
 text-align:center;
 }
@@ -167,9 +167,15 @@ text-shadow: 1px 1px 0 black,-1px -1px black;
 .title-post2 {
 color:lightyellow ;
 font-family: SahelBlack;
-font-size:23px;
-margin-top:37px;
+font-size:35px;
+margin-top:33px;
 position:absolute;
 margin-right:140px;
 text-shadow: 1px 1px 0 black,-1px -1px black;
+}
+
+.tb-ax {
+text-align:center;
+width:190px;
+margin-right:5px;
 }
