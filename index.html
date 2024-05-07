@@ -42,7 +42,7 @@
 
  <center><header>
  
-  <div class="head-t" align="center" >
+  <div class="head-t" align="center" style="text-align:center</" >
   <center>
   <span id="sahelb" class="head-t0" style="margin-right:-100px" >آقــا</span>
     <span id="sahelb" class="head-t1" style="margin-right:px" >سـیــــد</span><br>
@@ -104,10 +104,23 @@ document.getElementById("neww").innerHTML = bm[today];
    <button class="btn normal" id="btn-menu">فروشگـاه</button>
    <button class="btn gray" id="btn-menu">ارتباط با ما</button>
    <hr style="border: 4px double red" >
-    <a href="https://mshekan.github.io" >
-     <img src="media/mshekan3.jpg" alt="محمدجواداسدی‌گوکی" rel="kk"  style="width:370px" >
-    </a>
-   <button class="btn dark" >https://mshekan.github.io</button>
+
+    <div>
+     <marquee id="marqu"  height="150" behavior="scroll" scrollamount="60" scrolldelay="1000"  direction="up" loop="loop" onmouseover="mymarqu()" >
+     <a href="https://mshekan.github.io" >
+      <img src="media/mshekan3.jpg" alt="محمدجواداسدی‌گوکی" rel="kk"  style="width:370px" >
+     </a>
+     <a href="https://mshekan.github.io" >
+      <img src="media/golbafbook.webp" alt="محمدجواداسدی‌گوکی" rel="kk"  style="width:370px" >
+     </a>
+     </marquee>
+<script type="text/javascript">
+function mymarqu() {
+  document.getElementById('marqu').setAttribute('scrollamount', 10, 0);
+}
+
+</script>
+    </div>
   </div>
 <br><br>
 <center>
