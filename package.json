@@ -1,0 +1,19 @@
+{
+  "name": "mrseyed",
+  "version": "1.0.0",
+  "description": "آقاسید",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mrseyed/mrseyed.github.io.git"
+  },
+  "author": "MrSeyed",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mrseyed/mrseyed.github.io/issues"
+  },
+  "homepage": "https://github.com/mrseyed/mrseyed.github.io#readme"
+}
