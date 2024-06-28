@@ -32,15 +32,15 @@
 
 body {
 background-image:url("../media/bk002.jpg");
-font-family:vazirbk;
+font-family:main-font;
 text-align:center;
 }
 .body {
-font-family:vazirbk;
+font-family:main-font;
 text-align:center;
 }
 	#vazir {
-font-family: vazirbd;
+font-family: main-font;
 }
 #sahelb {
 font-family: SahelBlack;
@@ -185,6 +185,7 @@ border:4px ridge black;
 border-radius: 10px;
 margin-top:-40px;
 background-image:url("../media/bak-post1.jpg");
+height:auto;
 }
 .title-post1 {
 color:yellow;
@@ -209,4 +210,11 @@ text-shadow: 1px 1px 0 black,-1px -1px black;
 text-align:center;
 width:190px;
 margin-right:5px;
+}
+
+.div-exp {
+width:370px;
+border:2px ridge red;
+
+
 }
