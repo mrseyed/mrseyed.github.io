@@ -1,3 +1,24 @@
+a:link {
+    text-decoration: none;
+}
+/* حالت لینک دیده شده */
+a:visited {
+    color: ;
+}
+/* حالت لینک فعال */
+a:hover {
+    color: ;
+}
+/* حالت لینک در لحظه ای که روی آن کلیک می کنیم */
+a:active {
+    background-color: ;
+    text-decoration: none;
+}
+</style>
+<a href="https://webgoo.ir" title="وبگو" target="_self">وبگو | آموزش برنامه نویسی و مهارتهای وب</a>
+توضیح:
+- سلکتورهای مربوط به لینک باید به صورت ذکر شده در مثال بالا به ترتیب تعریف شوند در غیر اینصورت برخی ویژگی های مورد نظر عم
+
 
 .tooltip {
   position: relative;
@@ -39,7 +60,7 @@ text-align:center;
 font-family:main-font;
 text-align:center;
 }
-	#vazir {
+#vazir {
 font-family: main-font;
 }
 #sahelb {
@@ -48,8 +69,15 @@ font-family: SahelBlack;
 #led {
 font-family: led08;
 }
-
-
+#irsb {
+font-family: irsblack;
+}
+#irsn {
+font-family: irsnormal;
+}
+#mikhak {
+font-family: mikhak;
+}
 ////  🔴 تیتر بالا 🔴 ///
 header {
 
@@ -213,8 +241,12 @@ margin-right:5px;
 }
 
 .div-exp {
-width:370px;
-border:2px ridge red;
-
-
+width:360px;
+border:4px double red;
+}
+.div-ad {
+width:340px;
+border:2px ridge orange;
+border-radius:5px;
+margin-top:10px;
 }
