@@ -14,10 +14,6 @@ a:active {
     background-color: ;
     text-decoration: none;
 }
-</style>
-<a href="https://webgoo.ir" title="وبگو" target="_self">وبگو | آموزش برنامه نویسی و مهارتهای وب</a>
-توضیح:
-- سلکتورهای مربوط به لینک باید به صورت ذکر شده در مثال بالا به ترتیب تعریف شوند در غیر اینصورت برخی ویژگی های مورد نظر عم
 
 
 .tooltip {
@@ -53,15 +49,18 @@ a:active {
 
 body {
 background-image:url("../media/bk002.jpg");
-font-family:main-font;
+font-family:irsnormal;
 text-align:center;
 }
 .body {
-font-family:main-font;
+font-family:vazirbd;
 text-align:center;
 }
 #vazir {
-font-family: main-font;
+font-family: vazirbd;
+}
+#vazirbk {
+font-family: vazirbk;
 }
 #sahelb {
 font-family: SahelBlack;
@@ -78,6 +77,13 @@ font-family: irsnormal;
 #mikhak {
 font-family: mikhak;
 }
+#tamine1 {
+font-family: tamine1;
+}
+#tamine2 {
+font-family: tamine2;
+}
+
 ////  🔴 تیتر بالا 🔴 ///
 header {
 
