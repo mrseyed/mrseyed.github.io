@@ -104,7 +104,8 @@ header {
 	.head-t0 {
 	font-size:55px;
 	color: lightgreen;
-	margin-right:20px;
+	text-align:right;
+	margin-right:-100px;
 	text-shadow:3px 3px 0 black, -3px -3px 0 black;
 	}
 	.head-t1 {
@@ -112,10 +113,28 @@ header {
 	color: orange;
 	text-shadow:3px 3px 0 black, -3px -3px 0 black;
 	}
+	.head-t3 {
+	font-size:50px;
+	color: green;
+	margin-right:20px;
+	text-shadow:2px 2px 0px gold, -2px -2px 0 black;
+	}
+	.head-t4 {
+	font-size:50px;
+	color:purple;
+	margin-right:10px;
+	text-shadow:2px 2px 0px gold, -2px -2px 0 darkgreen;
+	}
+	
+	.head-t5 {
+	font-size:45px;
+	color: red;
+	margin-right:10px;
+	}
 	.head-t2 {
 	font-size:30px;
 	color: brown;
-	margin-right:25px;
+	margin-right:px;
 		text-shadow:1px 1px 0 white, -1px -1px 0 white;
 	}
 
