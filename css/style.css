@@ -86,7 +86,8 @@ font-family: tamine2;
 
 ////  🔴 تیتر بالا 🔴 ///
 header {
-
+align-items:center;
+text-align:center;
 }
 	.divhead {
 	width:390px;
@@ -97,14 +98,14 @@ header {
 	width:380px;
 	}
 	.head-t {
-	position:absolute;
-	text-align:right;
+	position:fixed;
+	text-align:center;
 	margin-top:20px;
 	}
 	.head-t0 {
 	font-size:55px;
 	color: lightgreen;
-	text-align:right;
+	text-align:center;
 	margin-right:-70px;
 	text-shadow:3px 3px 0 black, -3px -3px 0 black;
 	}
