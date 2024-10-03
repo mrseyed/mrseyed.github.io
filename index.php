@@ -148,7 +148,7 @@ document.getElementById("neww").innerHTML = bm[today];
        
       </table>
       <div align="left" style="width:165px;margin-right:200px" >
-       <img src="media/mrseyed.png" style="width:160px" >
+       <img src="media/logo.1.png" style="width:160px" >
       </div>
       
      </div>
