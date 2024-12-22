@@ -12,7 +12,7 @@
 <meta property="og:description" content="
 ارائه کلیه خدمات تخصصی سیستم عامل اندروید و اینترنتی و فروسگاه اینترنتی محصولات مرتبط
 " />
-<meta property="og:image" content="https://mrseyed.github.io/media/mrseyed.png">
+<meta property="og:image" content="https://mrseyed.github.io/media/logo.1.jpg">
 <title>آقــا  سـیـــد</title>
 
 
@@ -21,32 +21,24 @@
 <meta name="viewport" content="width=device-width">
  <link rel="stylesheet" type="text/css" href="css/00.css">
  <link rel="stylesheet" type="text/css" href="css/style.css">
- <link rel="stylesheet" type="text/css" href="css/tamine1.css">
+ <link rel="stylesheet" type="text/css" href="css/tamin2.css">
  <link rel="stylesheet" type="text/css" href="msdata/fonts/all.css">
  <link rel="stylesheet" type="text/css" href="msdata/fonts/fa.min.css">
  <link rel="stylesheet" type="text/css" href="msdata/fonts/icofont.min.css">
  <link rel="stylesheet" type="text/css" href="msdata/fonts/fonts.css">
- <link rel="stylesheet" type="text/css" href="msdata/css/4/bootstrap.min.css">
- <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap.min.css">
- <link rel="stylesheet" type="text/css" href="msdata/css/4/bootstrap-reboot.min.css">
- <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap-reboot.min.css">
- <link rel="stylesheet" type="text/css" href="msdata/css/4/bootstrap-grid.min.css">
- <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap-grid.min.css">
-<script src="js/jquery.min.js" ></script>
-<script src="js/4/bootstrap.min.js"></script>
-<script src="js/5/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/tarikh.js"></script>
+ <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap.rtl.min.css">
+ <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap-reboot.rtl.min.css">
+ <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap-grid.rtl.min.css">
 </head>
-<body>
+<body dir="rtl" >
 <center>
 <div class="body" >
 
- <center>
- <header>
+ <center><header>
  
-  <div class="head-t" align="center" style="text-align:center" >
-    <center>
-    <center><span id="sahelb" class="head-t0" style="" align="right" >آقــا</span>
+  <div class="head-t" align="center" style="text-align:center</" >
+  <center>
+    <span id="sahelb" class="head-t0" style="" align="right" >آقــا</span>
     <span id="sahelb" class="head-t1" style="" >سـیــــد</span><br>
     <span id="sahelb" class="head-t2"  style="margin-right:-50px;text-align:right" >مـهـنـــدس مـوســوی</span><br>
     <span id="sahelb" class="head-t3" style="" >انـدرویـد</span>
@@ -57,7 +49,9 @@
   <div class="divhead" >
    <img src="media/fram06.jpg" >
   </div>
-
+ <marquee direction="right" class="mrq" id="sahelb" >
+ در دست ساخت۞۞۞وبسایت درحال توسعه و ساخت میباشد۞
+ </marquee>
  </header>
  
  
@@ -74,7 +68,7 @@
   </table>
  </div>
 <script type="text/javascript" src="js/saat.js"></script>
- 
+
   <div class="div-day" align="center" >
    <span id="dhafte" style="font-family:vazirbd" ></span>
   </div>
@@ -110,12 +104,18 @@ document.getElementById("neww").innerHTML = bm[today];
 
      
   </div>
-<br><br>
+  <div class="div-jen" style="margin-top:10px" >
+  <a href="#" >
+   <img src="media/gif.jen.gif" style="width:380px;margin-top:px" >
+  </a>
+  </div>
+<br>
+
 
 <center>
   <span class="title-post1" >##</span>
   <span class="title-post2" >##</span>
-  <img src="media/blu/baner.webp" style="width:380px;height:110px" >
+  <img src="media/baner2.png" style="width:395px;height:110px" >
   
   
   
@@ -148,26 +148,18 @@ document.getElementById("neww").innerHTML = bm[today];
        
       </table>
       <div align="left" style="width:165px;margin-right:200px" >
-       <img src="media/logo.1.png" style="width:160px" >
+       <img src="media/logo.1.jpg" style="width:160px" >
       </div>
       
      </div>
    <br>
+    <?php
+     $my = 5;
+     $y = 2;
+     $we = $my + $y;
+     echo ($we);
+    ?>
 
-<?php
-   if( $_REQUEST["name"] || $_REQUEST["age"] ) {
-      echo "Welcome ". $_REQUEST['name']. "<br />";
-      echo "You are ". $_REQUEST['age']. " years old.";
-      exit();
-   }
-?>
-      
-      <form action = "<?php $_PHP_SELF ?>" method = "POST">
-         Name: <input type = "text" name = "name" />
-         Age: <input type = "text" name = "age" />
-         <input type = "submit" />
-      </form>
-      
 
   </div>
 

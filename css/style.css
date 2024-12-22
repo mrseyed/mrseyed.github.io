@@ -297,3 +297,9 @@ border:4px double gold;
 border-radius: 10px;
 background-image:url("../media/bg-menu3.jpg");
 }
+.tst {
+
+}
+.tst:hover {
+background-color: blue;
+}
