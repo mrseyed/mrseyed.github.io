@@ -19,6 +19,8 @@
 <meta http-equiv="Content-Type" content="text/html; charset:utf-8" />
 <meta http-equiv="Content-language" content="fa" />
 <meta name="viewport" content="width=device-width">
+
+ <link rel="stylesheet" type="text/css" href="css/01.css">
  <link rel="stylesheet" type="text/css" href="css/00.css">
  <link rel="stylesheet" type="text/css" href="css/style.css">
  <link rel="stylesheet" type="text/css" href="css/tamin2.css">
@@ -29,6 +31,7 @@
  <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap.rtl.min.css">
  <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap-reboot.rtl.min.css">
  <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap-grid.rtl.min.css">
+       <link href="https://r.tlyn.ir/static/adminLTE/css/custom-style.css" rel="stylesheet">
 </head>
 <body dir="rtl" >
 <center>
@@ -109,13 +112,26 @@ document.getElementById("neww").innerHTML = bm[today];
 	   ∷∷∷∷∷∷∷∷
 	 </div>
 	 <div class="lcd" >
-	  <div class="head bg-primary" >
+	  <div class="head bg-success" >
+	  
+	  </div>
 	  <form method="_GET" >
-	  <p name="flname"></p> 
+	  <p></p> 
+	  <input type="date" required="required" name="flname" maxlength="10" onchange="myfunc()" id="color" >
+	  <input type="submit" class="btn bg-dark text-warning"  value="تایید" > 
+	  <code id="tcolor" >t</code>
 	  </div>
 	 </div>
 	 <img src="media/home.png" width="80px" >
 	</div>
+    
+    <script type="text/javascript">
+    function myfunc () {
+    var vcolor = document.getElementById("color").value;
+    document.getElementById("tcolor").innerHTML = vcolor;
+    }
+    
+    </script>
     
 </div>
   <br>

@@ -29,6 +29,13 @@
  <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap.rtl.min.css">
  <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap-reboot.rtl.min.css">
  <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap-grid.rtl.min.css">
+ <link href="https://r.tlyn.ir/static/font/vazir.css" rel="stylesheet">
+   <!--link href="https://r.tlyn.ir/static/adminLTE/css/adminlte.min.css" rel="stylesheet">
+   <link href="https://r.tlyn.ir/static/adminLTE/css/bootstrap-rtl.min.css" rel="stylesheet">
+   <link href="https://r.tlyn.ir/static/adminLTE/css/custom-style.css" rel="stylesheet">
+   <link href="https://r.tlyn.ir/static/adminLTE/css/persian-datepicker.min.css" rel="stylesheet"-->
+   <link href="./css/01.css" rel="stylesheet">
+   
 </head>
 <body dir="rtl" >
 <center>
@@ -102,71 +109,82 @@ document.getElementById("neww").innerHTML = bm[today];
    <button class="btn normal" id="btn-menu">فروشگـاه</button>
    <button class="btn gray" id="btn-menu">ارتباط با ما</button>
 
-     
-  </div>
-  <div class="div-jen" style="margin-top:10px" >
-  <a href="#" >
-   <img src="media/gif.jen.gif" style="width:380px;margin-top:px" >
-  </a>
-  </div>
-<br>
-
-
-<center>
-  <span class="title-post1" >##</span>
-  <span class="title-post2" >##</span>
-  <img src="media/baner2.png" style="width:395px;height:110px" >
-  
-  
-  
-  
-  <div class="form-post"  > 
-   <br><br>
-     <div id="vazir" align="center" >
-      <table align="right" class="tb-ax" >
-       <tr class="bg-warning" >
-        <th id="sahelb" >#</th>
-       </tr>
-       <tr>
-        <td>#</td>
-       </tr>
-       <tr class="bg-secondary" >
-        <th id="sahelb" >##</th>
-       </tr>
-       <tr>
-        <td>##</td>
-       </tr>
-       <tr class="bg-danger" >
-        <th id="sahelb" >##</th>
-       </tr>
-       <tr>
-        <td style="text-align:center; font-size:13px" ><dt>
-*
-        </dt></td>
-       
-       </tr>
-       
-      </table>
-      <div align="left" style="width:165px;margin-right:200px" >
-       <img src="media/logo.1.jpg" style="width:160px" >
-      </div>
-      
-     </div>
-   <br>
-    <?php
-     $my = 5;
-     $y = 2;
-     $we = $my + $y;
-     echo ($we);
-    ?>
-
-
   </div>
 
+	<div class="form-q bg-dark" ><br>
+	 <div style="border:1px solid gray;border-radius:4px;color:white;width:100px" width="60px">
+	   ∷∷∷∷∷∷∷∷
+	 </div>
+	 <div class="lcd" >
+	  <div class="head bg-primary" >
+	  		<h1>آقاسیـد</h1>
+	  </div>
+	  <div class="body" style="text-align:right">
+
+		<!--marquee direction="up" height="530px">
+		 <center>
+		 <img src="media/mylogo01.png" width="80%">
+		 <img src="media/mylogo02.png" width="80%">
+		 <img src="media/mylogo03.png" width="80%">
+		 <img src="media/logo.jpg" width="80%">
+		 <img src="media/mylogo05.png" width="80%">		 		 		 
+		</marquee-->
+		<hr>
+	   <form action="https://api.fast-creat.ir/timezone" name="time" method="_GET" >
+	    <input type="text" name="apikey" value="5780558419:2AF4wyREvWzU6YM@Api_ManagerRoBot" hidden="hidden" >
+	    <li>تاریخ</li>
+	    <input type="date" name="action">
+	    <li>فرمت</li>
+	   	<input type="text" name="zone"  value="en" disabled="disabled"  >
+	   		  <input type="submit" >
+	   </form>
+	   <hr>
+	   <form action="https://api.fast-creat.ir/short" name="short" >
+	    <input type="text" name="apikey" value="5780558419:3FX4p5UQwgM1aTt@Api_ManagerRoBot" hidden="hidden" >
+	    <li id="flname" >لینک</li>
+	    <input type="text" name="link">
+	   		  <input type="submit" >
+	   </form>
+	   <hr>
+	   <form action="https://api.fast-creat.ir/gpt/chat" name="al" >
+	   <input type="text" name="apikey" value="5780558419:wNO7qaLJ2918QcS@Api_ManagerRoBot" hidden="hidden" >
+	   <li>سوال</li>
+	   <input type="text" name="text">
+	   <input type="submit" >
+	   </form>
+	  </div>
+
+
+
+
+	 </div>
+	 <a href="index.html" >
+	 <img src="media/home.png" width="80px" >
+	 </a>
+	</div>
+	       <!--div class="receipt-divider"></div>
+    <div class="receipt-row">
+                   <span>زمان ثبت</span>
+                   <span></span>
+                   <span dir="ltr">1403/12/10 00:46</span>
+               </div-->
+    <div>
+    
+
+    
+    </div>
+    
     
 </div>
   <br>
   <br>
+  <!-- Begin WebGozar.com Counter code -->
+  <script type="text/javascript" language="javascript" src="http://www.webgozar.ir/c.aspx?Code=3761722&amp;t=counter" ></script>
+  <noscript>
+  <a href="http://www.webgozar.com/counter/stats.aspx?code=3761722" target="_blank">&#1570;&#1605;&#1575;&#1585;</a>
+  </noscript>
+  <!-- End WebGozar.com Counter code -->
+  
 </center>
 </body>
 

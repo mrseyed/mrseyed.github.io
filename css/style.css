@@ -325,3 +325,78 @@ margin:5px;
 				border-top-right-radius:4pt;
 				border-top-left-radius:4pt;
 				}
+				
+/* <---- RECIPT CODE ----> */
+
+.receipt-title{
+  background-color: #00000050;
+  padding: 20px;
+  margin: auto;
+  border-radius: 0 0 20px 20px;
+  color: white;
+}
+.receipt-body{
+  background: white;
+  margin: 30px auto 50px auto;
+  padding: 40px 20px 20px 20px;
+  border-radius: 20px 20px 0 0;
+}
+.receipt-divider{
+  height: 1px;
+  margin: 20px 0;
+  background-image: linear-gradient(to right, #615B5B 50%, transparent 50%), linear-gradient(to right, #615B5B 50%, transparent 50%);
+  background-position: left top, left bottom, left top, right top;
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 20px 5px, 20px 5px;
+  position: relative;
+}
+.receipt-divider::before,
+.receipt-divider::after{
+    content: "";
+    background-color: var(--receipt-base-color);
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    border-radius: 100%;
+    margin-top: -15px;
+}
+.receipt-divider::before{
+    right: -35px;
+}
+.receipt-divider::after{
+    left: -35px;
+}
+.receipt-bottom{
+  position: relative;
+  bottom: -35px;
+  border-top: 30px dotted var(--receipt-base-color);
+}
+.receipt-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+.receipt-row :nth-child(2){
+    border-top: 1px dashed #A8A8A8;
+    width: max-content;
+    align-self: center;
+    flex-grow: 1;
+    margin: 0 10px;
+}
+.receipt-head{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.receipt-head img{l
+  width: 50px;
+  margin-bottom: 15px;
+}
+
+/* <---- RECIPT CODE ----> */
+
+.bank {
+width:80%;
+font-size:14px;
+color:brown;
+}
