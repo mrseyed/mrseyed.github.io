@@ -400,3 +400,28 @@ width:80%;
 font-size:14px;
 color:brown;
 }
+
+
+
+
+.myt {
+text-align:center;
+}
+	.myt > table {
+	font-family:irsblack;
+	}
+	.myt > table > thead > tr {
+	background-color:black;
+	text-align:center;
+	color:yellow;
+	font-size:17px;
+	}
+	.myt > table > thead > tr > th {
+	border:1px solid green;
+	}
+	.myt > table > tbody > tr > td {
+	font-family:vazirbd;
+	font-size: 16px;
+	color: darkblue;
+	border:1px solid brown;
+	}
