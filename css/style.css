@@ -425,7 +425,14 @@ text-align:center;
 	}
 	.myt > table > tbody > tr > td {
 	font-family:vazirbd;
-	font-size: 14px;
-	color: darkblue;
+	font-size: 15px;
+	color: ;
 	border:1px solid gray;
+	}
+	.myt > table > tbody > tr > th {
+	font-family:mikhak;
+	font-weight:normal;
+	border:1px solid gray;
+	color: darkblue;
+
 	}
