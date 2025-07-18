@@ -37,6 +37,8 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap.rtl.min.css">
  <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap-reboot.rtl.min.css">
  <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap-grid.rtl.min.css">
+
+ <script type="text/javascript" src="msdata/js/persian-date.js"></script>
 </head>
 
 <body dir="rtl" >
@@ -66,11 +68,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div-->
 
   <div class="animated-text mrq" >
-    <span >
-🌟مهلت ثبت نام تا تاریخ 1404/05/02🌟
+    <span id="pdate" >
+
     </span>
   </div>
- </header>
+  
+  </header>
  <br>
 
  <br>
@@ -88,27 +91,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script type="text/javascript" src="js/saat.js"></script>
 
   <div class="div-day" align="center" >
-   <span id="dhafte" style="font-family:vazirbd" ></span>
+   <span id="pwd" style="font-family:sahelblack" ></span>
   </div>
  <div class="div-date" align="center" >
-  <table id="vazir" >
-   <tr> 
-    <th><span id="neww" ></span></th>
-    <th>/</th>
-    <th>1404</th>
-   </tr>
-  </table>
+  <span id="pnow" style="font-family:irsbold"  ></span>
  </div>
-  <script type="text/javascript" src="js/newt.js"></script>
+
 <script type="text/javascript">
-var date = new Date();
-var hafte = date.getDay();
-var shanbe = [" یکشنبه "," دوشنبه ", " سه‌شنبه ", " چهارشنبه ", " پنجشنبه ", " جمعه ", " شنبه "];
-document.getElementById("dhafte").innerHTML = shanbe[hafte];
-</script>
-<script type="text/javascript">
-document.getElementById("neww").innerHTML = bm[today];
-</script>
+  var pcal = new persianDate();
+  var pcaldate = pcal.format("YYYY/MM/DD");
+  var pcalday = pcal.format("dddd");
+  
+  document.getElementById("pnow").innerHTML= pcaldate ;
+  document.getElementById("pwd").innerHTML= pcalday ;
+ </script>
+
 	
 	
 
@@ -546,8 +543,9 @@ const box = document.getElementById("box");
 
      <h2 style="color:red;border:2px solid black;background-color:yellow" id="sahelb">روش دوم</h2>
      <p style="font-size:18px; color:darkgreen; font-family:mikhak" >
-با انتخاب دکمه پشتیبانی که در سمت راست و پایین صفحه خود مشاهده می‌کنید، با انتخاب گزینه (ثبت نام) مستقیما با کارشناس استخدام ما ارتباط خواهید گرفت و می‌توانید ثبت نام خود را انجام دهید.
+ثبت نام از طریق اپراتور پشتیبانی ما. شما میتوانید با ورود به قسمت چت پشتیبانی و انتخاب گزینه (ثبت نام) به کارشناس مربوطه ارتباط برقرار کنید .کارشناس ما همه اطلاعات و آیتم‌های موردنیاز را ازشما درخواست میکند(به صورت چت آنلاین).
      </p>
+        <button onclick="location.href='https://goftino.com/c/5UJL1m';" class="btn dark" id="btn-menu" style="width:97%; height:50px; color: white" >ورود به چت پشتیبانی و انجام ثبت نام</button>
      <h2 style="color:red;border:2px solid black;background-color:yellow" id="sahelb">روش سوم</h2>
      <p style="font-size:18px; color:darkgreen; font-family:mikhak" >
 شما میتوانید از طریق شماره همراهی که در دکمه سبزرنگ زیر ثبت شده، با کارشناس استخدام ما ارتباط برقرار کرده و درخواست خود را ثبت نمایید. 
@@ -600,9 +598,8 @@ const box2 = document.getElementById("box2");
 <br>
 </center>
 <script type="text/javascript">
-  !function(){var i="upgxQF",a=window,d=document;function g(){var g=d.createElement("script"),s="https://www.goftino.com/widget/"+i,l=localStorage.getItem("goftino_"+i);g.async=!0,g.src=l?s+"?o="+l:s;d.getElementsByTagName("head")[0].appendChild(g);}"complete"===d.readyState?g():a.attachEvent?a.attachEvent("onload",g):a.addEventListener("load",g,!1);}();
+  !function(){var i="5UJL1m",a=window,d=document;function g(){var g=d.createElement("script"),s="https://www.goftino.com/widget/"+i,l=localStorage.getItem("goftino_"+i);g.async=!0,g.src=l?s+"?o="+l:s;d.getElementsByTagName("head")[0].appendChild(g);}"complete"===d.readyState?g():a.attachEvent?a.attachEvent("onload",g):a.addEventListener("load",g,!1);}();
 </script>
-
 </body>
 
          
