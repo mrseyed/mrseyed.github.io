@@ -49,7 +49,7 @@ a:active {
 
 
 
-body {
+#body {
 background-image:url("../media/bk002.jpg");
 font-family:irsnormal;
 text-align:center;
@@ -333,11 +333,36 @@ margin:5px;
 /* <---- RECIPT CODE ----> */
 
 .receipt-title{
-  background-color: #00000050;
-  padding: 20px;
+  background-color: #264d00;
+  padding: 0px;
   margin: auto;
   border-radius: 0 0 20px 20px;
   color: white;
+  border:1.5px solid black;
+}
+.receipt-title2{
+  background-color: #b30000;
+  padding: 0px;
+  margin: auto;
+  border-radius: 0 0 20px 20px;
+  color: white;
+  border:1.5px solid black;
+}
+.receipt-end{
+  background-color: #264d00;
+  padding: 13px;
+  margin: auto;
+  border-radius: 20px 20px 0px 0px;
+  color: white;
+  border:1.5px solid black;
+}
+.receipt-end2{
+  background-color: #b30000;
+  padding: 13px;
+  margin: auto;
+  border-radius: 20px 20px 0px 0px;
+  color: white;
+  border:1.5px solid black;
 }
 .receipt-body{
   background: white;
@@ -436,3 +461,26 @@ text-align:center;
 	color: darkblue;
 
 	}
+	
+	
+	.animated-text {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .animated-text span {
+      position: absolute;
+      white-space: nowrap;
+      left: -100%;
+      animation: scroll-right 10s linear infinite;
+    }
+
+    @keyframes scroll-right {
+      0% {
+        left: -100%;
+      }
+      100% {
+        left: 100%;
+      }
+    }
