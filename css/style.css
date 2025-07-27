@@ -333,7 +333,7 @@ margin:5px;
 /* <---- RECIPT CODE ----> */
 
 .receipt-title{
-  background-color: #264d00;
+
   padding: 0px;
   margin: auto;
   border-radius: 0 0 20px 20px;
@@ -341,7 +341,7 @@ margin:5px;
   border:1.5px solid black;
 }
 .receipt-title2{
-  background-color: #b30000;
+
   padding: 0px;
   margin: auto;
   border-radius: 0 0 20px 20px;
@@ -371,7 +371,7 @@ margin:5px;
   border-radius: 20px 20px 0 0;
 }
 .receipt-divider{
-  height: 1px;
+  height: 2px;
   margin: 20px 0;
   background-image: linear-gradient(to right, #615B5B 50%, transparent 50%), linear-gradient(to right, #615B5B 50%, transparent 50%);
   background-position: left top, left bottom, left top, right top;

@@ -50,8 +50,17 @@ font-size:35px;
 	   <span class="ht1" >آقاسیـد</span>
 	  </div>
 	  <div class="body" style="text-align:right">
-	  
+	  <?php
+	  $name = $_GET['name'];
+	  ?>
 	   
+	   <h1 class="text-warning" >
+	    <?php
+	    echo $name;
+	    ?>
+	   </h1>
+	   
+	  
 	  
 	  </div>
 	  <a href="index.html" >

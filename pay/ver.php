@@ -37,6 +37,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  <link rel="stylesheet" type="text/css" href="./../msdata/css/5/bootstrap.rtl.min.css">
  <link rel="stylesheet" type="text/css" href="./../msdata/css/5/bootstrap-reboot.rtl.min.css">
  <link rel="stylesheet" type="text/css" href="./../msdata/css/5/bootstrap-grid.rtl.min.css">
+ <script type="text/javascript" src="./../msdata/js/persian-date.js"></script>
 </head>
 <style type="text/css">
 
@@ -102,6 +103,12 @@ margin-top:180px;
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+<?php
+$Amount=$_GET['Amount'];
+$Authority=$_GET['Authority'];
+$Status=$_GET['Status'];
+?>
+
 
 
 	<center>
@@ -162,12 +169,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	  <div class="lcd" >
 	   <div class="body" style="text-align:center">	   
 	    <div class="divbody" >
-	     <div class="receipt-title2" >
-	      <span class="p-chand" >تراکنش ناموفق</span>
+	     <div class="receipt-title" >
+	      <span class="p-chand" >
+	      <?php
+	      if ($Status == "OK")
+	      {
+	      echo "تراکنش موفق";
+	      } else {
+	      echo "تراکنش ناموفق";
+	      }
+	      ?>
+	      </span>
 	     </div>
 	    
 	    <span class="p-chand" >مبلغ</span>
-	    <span class="p-pool">229,625</span>
+	    <span class="p-pool">
+	    <?php
+	    echo $Amount;
+	    ?>
+	    </span>
 	    <span class="p-chand" >ریال</span>
 	    
 	    
@@ -175,23 +195,23 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	    <div class="receipt-row">
 	    <span>تاریخ</span>
 	    <span></span>
-	    <span>1403/04/28</span>
+	    <span id="tarikh" ></span>
 	    </div>
 	    <div class="receipt-row">
 	    <span>ساعت</span>
 	    <span></span>
-	    <span>15:44</span>
+	    <span id="saat" ></span>
 	    </div>
 	    
 	    <div class="receipt-row">
 	    <span>شماره ارجاع</span>
 	    <span></span>
-	    <span>1404042806887542</span>
+	    <span id="erja" ></span>
 	    </div>
 	    <div class="receipt-row">
 	    <span>شماره پیگیری</span>
 	    <span></span>
-	    <span>0008799-8554/55</span>
+	    <span id="pcode" ></span>
 	    </div>
 	    <div class="receipt-row">
 	    <span>بانک</span>
@@ -199,12 +219,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	    <span>شهر</span>
 	    </div>
 	    </div>
-	    <div class="receipt-end2 footlcd" style="" >
-	    پرداخت شما ناموفق بود.درصورت کسر وجه حداکثر تا 72ساعت آینده به حسابتان برگشت خواهد خورد.
+	    <div class="receipt-end footlcd" style="" >
+پرداخت با موفقیت انجام شد
 	    </div>
-	    
-	   
-	   
 	   </div>
 	  <a href="index.html" >
 
@@ -214,6 +231,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	 
 	 
 	</center>
+<script type="text/javascript">
 
+var HCal = new persianDate();
+var HCDate = HCal.format("YYYY/MM/DD");
+var HCTime = HCal.format("HH:mm:ss");
+var HCP = HCal.format("YYYYMMDDHHmmss001");
+var HCC = HCal.format("ssDDmm001mm");
+var Pcode = HCC ;
+document.getElementById("tarikh").innerHTML=HCDate;
+document.getElementById("saat").innerHTML=HCTime;
+document.getElementById("erja").innerHTML=HCP;
+document.getElementById("pcode").innerHTML=Pcode;
+</script>
 </body>
 </html>

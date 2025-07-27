@@ -50,8 +50,17 @@ font-size:35px;
 	   <span class="ht1" >آقاسیـد</span>
 	  </div>
 	  <div class="body" style="text-align:right">
-	  
+	    <form action="addjob.php" method="GET"> 
+	    عنوان کار
+	    	  <input type="text" name="jobt">
+	    ظرفیت
+	    	  <input type="number" name="zarf">
+	    	  توضیح
+	    	 <input type="text" name="exp">
+	    <input type="submit">
+	    </form>
 	   
+	  
 	  
 	  </div>
 	  <a href="index.html" >

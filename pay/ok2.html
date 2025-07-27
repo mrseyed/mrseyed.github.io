@@ -44,7 +44,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 width: 380px;
 border: 3px ridge gray;
 border-radius:8px;
-background-color: #ffcccc;
+background-color: #e6ffe6;
 font-family: irsblack;
 font-size:17px;
 }
@@ -53,12 +53,12 @@ font-size:40px;
 color:#990000;
 }
 .i1 {
-color:#ff0000;
+color:#1f7a1f;
 }
 .divbody {
-
+border:3px ridge gray;
 border-top:0px;
-width:100%;
+width:365px;
 font-family:irsbold;
 font-size:20px;
 
@@ -73,11 +73,11 @@ margin-top:-5px
 font-family:rezvan;
 font-size:40px;
 font-weight:1000;
-color:red;
+color:gold;
 
 }
 .sayer {
-width:99%;
+width:90%;
 background-color:#e6f2ff;
 font-size:16px;
 font-family:vazir;
@@ -86,13 +86,51 @@ font-weight:1000;
 border:0.5px solid black;
 padding:5px
 }
-h1 {
-font-family:sahelblack;
-margin-top:9px;
+li {
+
+margin-right: 3px;
 }
-.footlcd {
-position:relative;
-margin-top:180px;
+input {
+border:1.5px solid black;
+border-radius:5pt;
+font-family:vazirbd;
+
+height:35px;
+color:darkblue
+}
+td {
+width:20px;
+text-align:center;
+margin:5px;
+}
+th {
+text-align:center;
+}
+.bt {
+border:1px solid black;
+border-radius: 10pt 0 10pt 0;
+width:80px;
+height:40px;
+font-family:mikhak;
+font-weight:400px;
+font-size:20px;
+margin:5px;
+}
+select {
+width:250px;
+height:36px;
+font-family:vazirbd;
+border:2px solid darkblue;
+border-radius:5pt;
+margin-bottom:10px;
+color:brown
+}
+	select > option {
+		width:170px;
+		}
+.inp {
+border:1.5 solid black:
+border-radius:5pt;
 }
 </style>
 <body dir="rtl">
@@ -106,20 +144,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<center>
 	<hr>
-	 <!--div class="divmain" >
+	 <div class="divmain" >
 	  <span class="success" >
-	   <i class="fa fa-circle-xmark i1"></i>
-تراکنش ناموفق
-	   <i class="fa fa-face-frown i1"></i>
+	   <i class="fa fa-square-check i1"></i>
+تراکنش موفق
+	   <i class="fa fa-thumbs-up i1"></i>
 	  </span>
 	 </div>
 	 <div class="divbody" >
-	  <div class="receipt-title2" >
-	   <span class="p-chand" >مبلغ</span>
+	  <div class="receipt-title" >
+	   <span class="p-chand text-danger" >مبلغ</span>
 	   <span class="p-pool">229,625</span>
-	   <span class="p-chand" >ریال</span>
+	   <span class="p-chand text-danger" >﷼</span>
 	  </div>
-	  <center>
+	  
 	  <div class="sayer" >
 	   <div class="receipt-row">
 	    <span>تاریخ</span>
@@ -147,73 +185,125 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	    <span></span>
 	    <span>شهر</span>
 	   </div>
-	   </center>
 	  </div>
-	  <div class="receipt-end2">
-پرداخت شما ناموفق بود.درصورت کسر وجه حداکثر تا 72ساعت آینده به حسابتان برگشت خواهد خورد.
+	  <div class="receipt-end">
+پرداخت شما با موفقیت انجام شد.
 	   </div>
+	<hr>
 
-	 </div-->
-	 
-	 <div class="form-q bg-dark" ><br>
-	  <div style="border:1px solid gray;border-radius:4px;color:white;width:100px" width="60px">
-	 ∷∷∷∷∷∷∷∷
-	  </div>
-	  <div class="lcd" >
-	   <div class="body" style="text-align:center">	   
-	    <div class="divbody" >
-	     <div class="receipt-title2" >
-	      <span class="p-chand" >تراکنش ناموفق</span>
-	     </div>
-	    
-	    <span class="p-chand" >مبلغ</span>
-	    <span class="p-pool">229,625</span>
-	    <span class="p-chand" >ریال</span>
-	    
-	    
-	    <div class="sayer" >
-	    <div class="receipt-row">
-	    <span>تاریخ</span>
-	    <span></span>
-	    <span>1403/04/28</span>
-	    </div>
-	    <div class="receipt-row">
-	    <span>ساعت</span>
-	    <span></span>
-	    <span>15:44</span>
-	    </div>
-	    
-	    <div class="receipt-row">
-	    <span>شماره ارجاع</span>
-	    <span></span>
-	    <span>1404042806887542</span>
-	    </div>
-	    <div class="receipt-row">
-	    <span>شماره پیگیری</span>
-	    <span></span>
-	    <span>0008799-8554/55</span>
-	    </div>
-	    <div class="receipt-row">
-	    <span>بانک</span>
-	    <span></span>
-	    <span>شهر</span>
-	    </div>
-	    </div>
-	    <div class="receipt-end2 footlcd" style="" >
-	    پرداخت شما ناموفق بود.درصورت کسر وجه حداکثر تا 72ساعت آینده به حسابتان برگشت خواهد خورد.
-	    </div>
-	    
-	   
-	   
-	   </div>
-	  <a href="index.html" >
+	   <ul style="text-align:right" >
+	    <li>
+	    نام
+	    <br>
+		 <input type="text" name="fname" >
+		</li>
+		<li>
+نام خانوادگی
+		<br>
+		<input type="text" name="lname" >
+		</li>
+		<li>
+نام پدر
+		<br>
+		<input type="text">
+		</li>
+		<li>
+کدملی
+		<br>
+		<input type="number" name="idnum" >
+		</li>
+		<li>تاریخ تولد
+			<!--🔥🔥-->
+		 <table>
+		  <tr style="text-align:center" bgcolor="orange" >
+		   <th>روز</th>
+		   <td>/</td>
+		   <th>ماه</th>
+		   <th>/</th>
+		   <th>سال</th>
+		  </tr>
+		  <tr>
+		   <th>
+		    <input type="number" style="width:40px;margin:5px" id="bdd" >
+		   </th>
+		   <td style="color:red" ><b>/</b></td>
+		   <td>
+		    <input type="number" style="width:40px;margin:5px" id="bdm" >
+		   </td>
+		   <td style="color:red" ><b>/</b></td>
+		   <td>
+		    <input type="number" style="width:60px;margin:5px" id="bdy" >
+		   </td>
+		  </tr>
+		 </table>
 
-	  </a>
+			<!--🔥🔥-->
+
+		</li>
+		<li>
+جنسیت
+		<table>
+		 <tr>
+
+		  <th><button id="male"  onclick="men()" class="btn blue bt">مـــرد</button></th>
+		  <th><button id="female" onclick="fem()"  class="btn normal bt">زن</button></th>
+		</tr>
+		<tr style="border:1px solid black" bgcolor="gold"  hidden="hidden" id="jens" >
+		 <td colspan="2">
+		  <span style="color:darkgreen;font-family:irsblack;font-size:24px" >جنسیت</span>
+		  <span style="color:blue;font-size:24px" id="geneder" >مم</span>
+		 </td>
+		</tr>
+	   </table>
+
+		</li>
+		
+	<hr>
+		<li style="color:blue;margin-top:20px" id="sarbaz" hidden="hidden" >
+		وضعیت نظام وظیفه
+		<br>
+		<select id="sel">
+		 <option>دارای کارت پایان خدمت</option>
+		 <option>خدمت نرفته‌ام</option>
+		 <option>معافی*غیرپـزشکی</option> 
+		 <option>معافی٭پزشکی</option>
+		</select>
+		</li>
+
+<script type="text/javascript">
+function men() {
+document.getElementById("geneder").innerHTML="مــرد";
+document.getElementById("sarbaz").hidden = false;
+document.getElementById("jens").hidden = false;
+}
+function fem() {
+document.getElementById("geneder").innerHTML="زن";
+document.getElementById("jens").hidden = false;
+document.getElementById("sarbaz").hidden=true;
+}
+</script>
+		
+		<li>
+وضعیت تاهل
+		<select style="width:150px" >
+		 <option>مجـرد</option>
+		 <option>متاهل</option>
+		 <option>طلاق گرفته</option>
+		</select>
+		</li>
+		<li>
+تست
+		<input type="text" id="test" name="test">
+
+		</li>
+		<p id="demo" hidden="hidden" >اا</p>
+	   </ul>
 	 </div>
-	 
-	 
-	 
 	</center>
+<script type="text/javascript">
+
+
+</script>
 
 </body>
 </html>

@@ -50,8 +50,13 @@ font-size:35px;
 	   <span class="ht1" >آقاسیـد</span>
 	  </div>
 	  <div class="body" style="text-align:right">
-	  
+	    <form action="pay/rq.php" method="GET"> 
+	    <input type="number" name="pool">
+	    <input type="number" name="mob">
+	    <input type="submit">
+	    </form>
 	   
+	  
 	  
 	  </div>
 	  <a href="index.html" >
