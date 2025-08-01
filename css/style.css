@@ -287,12 +287,24 @@ border: 5px ridge gold:
 border-top-right-radius:15px;
 }
 .mrq {
-width:370px;
-height:35px;
+width:100%;
+height:33px;
 border:3px ridge gold;
-background-color:brown;
+color:yellow;
+font-size:18px;
+font-family:sahelblack;
+
+}
+.mrq2 {
+width:100%;
+height:auto;
+border:3px ridge white;
+background-color:black;
 color:white;
-font-size:20px;
+font-size:18px;
+font-family:sahelblack;
+font-weight:400;
+
 }
 //<<<<<< جــــــــن >>>>>
 .div-jen {
@@ -372,6 +384,7 @@ margin:5px;
 }
 .receipt-divider{
   height: 2px;
+  width:90%;
   margin: 20px 0;
   background-image: linear-gradient(to right, #615B5B 50%, transparent 50%), linear-gradient(to right, #615B5B 50%, transparent 50%);
   background-position: left top, left bottom, left top, right top;

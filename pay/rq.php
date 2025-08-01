@@ -3,8 +3,9 @@ $amount = $_POST['amount'];
 $fname = $_POST['fname'];
 $lname = $_POST['lname'];
 $idcode = $_POST['idcode'];
-$bdate = $_POST['bdate'];
-$desc = $fname + $lname + "به کدملی" + $idcode + "مبلغ" + $amount;
+$bday = $_POST['bday'];
+$mobile=
+$desc = $fname + $lname + "به کدملی" + $idcode + "تاریخ تولد"+$bday;
 $mobile = $_POST['mobile'];
 ?>
 
