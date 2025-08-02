@@ -24,22 +24,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <title>✱تراکنش موفق✱</title>
 
 
-;<meta http-equiv="Content-Type" content="text/html; charset:utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset:utf-8" />
 <meta http-equiv="Content-language" content="fa" />
 <meta name="viewport" content="width=device-width">
 
 
 
- <link rel="stylesheet" type="text/css" href="css/00.css">
+
  <link rel="stylesheet" type="text/css" href="css/style.css">
- <link rel="stylesheet" type="text/css" href="msdata/fonts/all.css">
- <link rel="stylesheet" type="text/css" href="msdata/fonts/fa.min.css">
- <link rel="stylesheet" type="text/css" href="msdata/fonts/icofont.min.css">
- <link rel="stylesheet" type="text/css" href="msdata/fonts/fonts.css">
- <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap.rtl.min.css">
- <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap-reboot.rtl.min.css">
- <link rel="stylesheet" type="text/css" href="msdata/css/5/bootstrap-grid.rtl.min.css">
-<script type="text/javascript" src="msdata/js/persian-date.js"></script>
+ <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/fonts/all.css">
+ <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/fonts/fa.min.css">
+ <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/fonts/icofont.min.css">
+ <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/fonts/fonts.css">
+ <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/css/5/bootstrap.rtl.min.css">
+ <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/css/5/bootstrap-reboot.rtl.min.css">
+ <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/css/5/bootstrap-grid.rtl.min.css">
+<script type="text/javascript" src="https://mrseyed.github.io/msdata/js/persian-date.js"></script>
+<script type="text/javascript" src="js/form.js"></script>
  </head>
  
  <!--🎄🎄STYLE🎄🎄-->
@@ -53,23 +54,23 @@ font-size:16px;
   background-repeat:no-repeat;
   background-attachment:scroll; /* این خط مهمه */
   background-position: center;
-  height:1800px;
+  height:auto;
 }
 header {
 background-color:white;
-width:95%;
+width:390px;
 }
 .form1 {
 border: 5px ridge gold;
 border-radius: 0 20pt 0 20pt;
-width:370px;
+width:390px;
 
 }
 .text1 {
 border:2px ridge #1c334a;
 border-radius:5px;
 height:30px;
-font-family:irsbold;
+font-family:vazirbd;
 font-size:17px;
 text-align:right;
 color:black;
@@ -116,7 +117,7 @@ margin:5px;
 }
 ul {
 text-align:right;
-font-family:irsblack;
+font-family:;
 }
 ul > li {
 text-align:right;
@@ -156,7 +157,8 @@ li:active {
 background-color:orange;
 }
 kbd {
-font-family:irsbold;
+font-family:parastoobold;
+font-weight:1000;
 color:yellow;
 border:1px solid white;
 text-align:right;
@@ -164,7 +166,7 @@ font-size:16px;
 }
 q {
 color:red;
-font-family:yekan;
+font-family:samin;
 font-weight:1000;
 }
 textarea {
@@ -210,11 +212,11 @@ color:black;
 font-size:16px;
 }
 	.low> span> i {
-	font-size:27px;
+	font-size:30px;
 	color:brown;
 	}
 .mrq {
-width:100%;
+width:390px;
 height:33px;
 border:3px ridge gold;
 color:yellow;
@@ -223,7 +225,7 @@ font-family:sahelblack;
 
 }
 .mrq2 {
-width:100%;
+width:390px;
 height:auto;
 border:3px ridge white;
 background-color:black;
@@ -260,6 +262,24 @@ margin:5px
 .btn {
 font-family:irsblack;
 font-size:19px;
+}
+.detail {
+border: 2px ridge black;
+border-radius: 5px;
+width:98%;
+background-color:black;
+color: yellow;
+font-family:saminbold;
+font-weight:400;
+text-shadow:1px 1px 0 black;
+font-size:13.5px;
+padding:2px;
+margin:2px;
+
+}
+.error {
+border:1px solid red;
+background-color:orange;
 }
 </style>
 
@@ -298,7 +318,7 @@ font-size:19px;
 
  <div class="animated-text mrq bg-dark" >
 <span>
-آخرین مهلت ثبت نام تا ساعت 24 روز چهارشنبه 1404/05/15
+مهلت ثبت نام تا ساعت 24 روز جمعه 1404/05/17
 </span>
 
 
@@ -319,7 +339,7 @@ font-size:19px;
     <tr bgcolor="silver" >
      <td id="lv1" name="lv1"  class="dis" >مشخصات فردی</td>
      <td id="lv2" class="dis" >شغل پیشنهادی</td>
-     <td id="lv3" class="dis" >اطلاعات تماس</td>
+     <td id="lv3" class="dis" >بارگزاری تصویرپرسنلی</td>
      <td id="lv4" class="dis" >بررسی اطلاعات</td>
      <td id="lv5" class="dis" >پرداخت هزینه</td>
     </tr>
@@ -349,21 +369,6 @@ font-size:19px;
  
  <form action="zp/rq.php" method="POST">
 
-<input type="hidden" id="time" name="time">
-<input type="hidden" id="date" name="date">
-
-<script type="text/javascript">
-var formtime = setInterval(
-	function () {
-	var myt = new persianDate();
-	var mytime = myt.format("hh:mm:ss");
-	var mydate = myt.format("YYYY/MM/DD");
-	
-		document.getElementById("time").value=mytime;
-		document.getElementById("date").value=mydate;
-	}
-, 1000);
-</script>
 
 <!--  🔶🔶🔶 FORM0 🔷🔷🔷  -->
  
@@ -379,16 +384,16 @@ var formtime = setInterval(
    </li>
   </ul>
   <div class="low" >
-   <span><i class="icofont icofont-warning-alt"></i>
+   <span><i style="color:blue"  class="icofont-ui-clip-board"></i>
 موارد خواسته شده را با دقت وارد نمایید. چون بعد از ثبت اطلاعات امکان ویرایش اطلاعات وجود ندارد.
    </span>
    <br>
-   <span><i class="icofont icofont-listing-number"></i>
+   <span><i style="color:red"  class="icofont-listing-number"></i>
 ثبت نام دارای چند مرحله ساده است که شما به راحتی میتوانید آنها را انجام دهید.
    </span>
    <br>
-   <span><i class="icofont icofont-listing-number"></i>
-س
+   <span><i class="icofont-group-students"></i>
+نوع شغل‌های پیشنهادی، بسته به جنسیت مرد یا زن متفاوت میباشند.
    </span>
    <br>
    
@@ -396,17 +401,26 @@ var formtime = setInterval(
 درصورتی که در حین ثبت نام با مشکلی مواجه شدید میتوانید از طریق اپراتور پشتیبان آنلاین مشکل خود را مطرح کنید.اپراتور ما در کمترین زمان به مشکل شما رسیدگی می‌کند.
    </span>
    <br>
-   <span><i class="icofont icofont-coins"></i>
-هزینه ثبت نام و مصاحبه 
-<q style="font-size:18px" >۲۲,۸۵۰ تومان</q>
-می‌باشد که شما بعد از پایان مراحل ثبت نام باید از طریق درگاه پرداخت اینترنتی آنلاین پرداخت نمایید.
+   <span><i class="icofont-coins"></i>
+هزینه ثبت نام و قرار مصاحبه
+<q style="font-size:18px;font-family:saminbold" >25,000 تومان</q>
+می‌باشد.
    </span>
    <br>
-   <span style="color:blue;font-family:irsbold" ><i style="font-size:40px;color:green"  class="icofont icofont-pay"></i>
-عدم پرداخت هزینه ثبت نام به منزله انصراف از درخواست تلقی میگردد و و منجر به ابطال درخواستتان میگردد.
+   <span><i style="font-size:40px;color:green"  class="icofont-pay icofont-rotate-180"></i>
+پرداخت هزینه از طریق درگاه پرداخت اینترنتی آنلاین صورت می‌پذیرد. که پس از تکمیل فرم ثبت نام به صورت خودکار وارد مرحله پرداخت خواهید شد.
    </span>
    <br>
+   <span><i style="color:orange"  class="icofont-warning"></i>
+   <q>
+   عدم پرداخت هزینه ثبت نام به معنی انصراف شما از درخواستتان تلقی می‌گردد که  موجب می‌شود درخواست شما باطل شود. لطفا در هنگام پرداخت دقت لازم را داشته باشید.
+   </q>
+   </span>
    <br>
+   <span><i style="color:green"  class="icofont-thumbs-up"></i>
+   تمامی عملیات‌های پرداخت سیستمی صورت می‌پذیرد. به همین دلیل تمامی پرداخت‌ها با مشخصات پرداخت کننده به صورت دقیق ثبت خ.اهند شد. اما درصورت اطمینان خود میتوانید پس از انجام پرداخت هزینه، رسید پرداختی را به واحد پشتیبانی سایت ارسال نمایید
+<q>پس از هر پرداخت موفق، لینک پشتیبانی در همان صفحه در اختیارتان قرار میگیرد.</q>
+   </span>
    <br>
    <br>
    <hr>
@@ -437,13 +451,16 @@ function form0() {
    <li class="label" style="margin-top:10px" >
     نام:
     <br>
-    <input required="required" type="text" class="text1" name="fname" id="fname" >
+    <input onemptied="test()" type="text" class="text1" name="fname" id="fname" >
    </li>
    <li>
 نام خانوادگی:
 
 <br>
     <input type="text" class="text1" name="lname" id="lname" >
+	<div class="detail">
+	   نام خانوادگی را به صورت کامل همراه با پسوند وارد کنید.(مطابق شناسنامه)
+	</div>
    </li>
    <li>
 نام پدر:
@@ -517,7 +534,7 @@ function form0() {
       </td>
       <td style="color:red;margin:5px" >/</td>
       <td>
-       <input onchange="year()" type="number" maxlength="4" style="width:60px" class="text2 bk" name="bdy" id="bdy" >
+       <input onchange="year()" type="number" min="1390" min="1360"   maxlength="4" style="width:60px" class="text2 bk" name="bdy" id="bdy" >
       </td>
      </tr>
     </table>
@@ -530,8 +547,11 @@ function form0() {
    <li>
 شماره شناسنامه:
    <br>
-    <input type="number" class="text2" name="shenas" >
+    <input type="number" class="text2" name="shenas" id="shenas" >
    </li>
+   <div class="detail" >
+   افرادی که شماره شناسنامه ندارند(یا با کد ملی یکی میباشد) عدد (صفر) را وارد نمایند.
+   </div>
    <li>
 کدملی:
    <br>
@@ -552,25 +572,27 @@ function form0() {
    </table>
    <input type="hidden" id="gen" name="geneder" onchange="genjob()">  
    </li>
-   <li style="color:blue;font-family:irsblack;font-size:16px;margin-top:20px" >
+   <li id="sarbaz" style="color:blue;font-family:irsblack;font-size:16px;margin-top:20px" >
 وضعیت نظام وظیفه و کارت پایان خدمت:
     <select style="margin:1px;width:80%" id="nvazife"  class="text1 bk" disabled="disabled" >
-     <option value="0" >انتخاب کنید</option>
+     <option value="" >انتخاب کنید</option>
      <option>کارت پایان خدمت</option>
      <option>معافیت / معافیت غیرپزشکی</option>
      <option>معافیت / معافیت پزشکی</option>
      <option>فاقد کارت پایان خدمت</option>
-    </select><br>
-    <sub style="color:red"  >معافیت غیرپزشکی (کفالت، 3برادری و ...)</sub>
+    </select>
    </li>
+   <div class="detail" >
+   معافیت غیر پزشکی=معافیتی که با کمیسیون پزشکی صورت نپذیرفته باشد. مانند:معاف کفالت
+   </div>
    <input type="hidden" id="ksarbazi" name="khedmat">
-   <br>
+   
    <li>
 
    وضعیت تاهل
    <br>
     <select id="zan"  style="width:50%" >
-     <option value="0" >انتخاب کنید</option>
+     <option value="" >انتخاب کنید</option>
      <option>مجــرد</option>
      <option>متـاهـل</option>
      <option>متارکه(طلاق گرفته)</option>
@@ -581,7 +603,7 @@ function form0() {
    تحصیلات
    <br>
     <select style="width:50%" id="selmadrak" >
-     <option value="0" >انتخاب کنید</option>
+     <option value="" >انتخاب کنید</option>
      <option>زیردیپلـم</option>
      <option>دیپلـم</option>
      <option>فوق دیپلـم</option>
@@ -593,43 +615,38 @@ function form0() {
    رشته تحصیلی
    <input type="text" class="text1" name="reshte" id="reshte">
    </li>
+<script type="text/javascript">
+function male() {
+document.getElementById("nvazife").disabled=false;
+document.getElementById("geneder").innerHTML="مرد";
+document.getElementById("gen").value="مرد";
+document.getElementById("kadr").hidden=false;
+}
+function female() {
+document.getElementById("nvazife").disabled=true;
+document.getElementById("geneder").innerHTML="زن";
+document.getElementById("gen").value="زن";
+document.getElementById("kadr").hidden=false;
+}
+</script>
+ 
+
  <li class="label" style="margin-top:10px" >
  تلفن تماس
   <br>
   <input type="number" class="text2" name="phone" id="phone" >
-  <br><sub style="color:red" >
-  در وارد کردن شماره همراه دقت فرمایید. همکاران ما از طریق همین شماره تماس با شما ارتباط برقرار خواهند کرد.
-  </sub>
  </li>
- 
+ <div class="detail" >
+ در وارد کردن شماره همراه دقت فرمایید. همکاران ما برای قرار مصاحبه به همین شماره با شما تماس خواهند گرفت.
+ </div>
  <li class="label" style="margin-top:10px" >
  آدرس و نشانی
   <br>
   <input type="text" multiple="multiple" id="address"  class="text1" name="address" style="width:95%" >
  </li>
 </ul>
- <div class="hr" ></div>
-  <div class="hr" ></div>
- <ul>
- <li class="label" style="margin-top:10px; color:red" >
-شماره تماس ضروری:
-  <br>
-  <input type="number" class="text2" name="sos" id="sos" >
-  <br><sub style="color:red" >
-  درصورت عدم پاسخگویی به شماره تماس اصلی، به این شماره تماس خواهد گرفته شد.
-  </sub>
- </li>
- 
-
- 
-  </ul>
-
-
-  
-  
-
   </div>
-   <div onclick="form1n()" class="btn btn-danger" style="width:90%;margin:10px" ><i class="icofont icofont-save" style="font-size:24px;margin:5px" ></i>ذخیره و ادامه</div>
+   <div onclick="form1n()" class="btn btn-danger" style="width:90%;margin:10px" id="form1n" ><i class="icofont icofont-save" style="font-size:24px;margin:5px" ></i>ذخیره و ادامه</div>
  </div>
  
 
@@ -1002,9 +1019,92 @@ function form0() {
  
  
  
-
-
  <script type="text/javascript">
+ function form1() {
+ var gend = document.getElementById("gen").value;
+ document.getElementById("form1").hidden=true;
+  document.getElementById("x1").hidden=true;
+  document.getElementById("form2").hidden=false;
+  document.getElementById("chek1").hidden=false;
+  document.getElementById("k1").innerHTML="انجام شد";
+  
+  if (gend === "مرد") {
+  document.getElementById("seljob1").hidden=false;
+  document.getElementById("seljob2").hidden=false;
+  document.getElementById("seljob3").hidden=false;
+  document.getElementById("seljob4").hidden=false;
+  document.getElementById("seljob5").hidden=false;
+  document.getElementById("seljob01").hidden=true;
+  document.getElementById("seljob02").hidden=true;
+  document.getElementById("seljob03").hidden=true;
+  document.getElementById("seljob04").hidden=true;
+  document.getElementById("seljob05").hidden=true;
+  }
+  if (gend === "زن") {
+  document.getElementById("seljob1").hidden=true;
+  document.getElementById("seljob2").hidden=true;
+  document.getElementById("seljob3").hidden=true;
+  document.getElementById("seljob4").hidden=true;
+  document.getElementById("seljob5").hidden=true;
+  document.getElementById("seljob01").hidden=false;
+  document.getElementById("seljob02").hidden=false;
+  document.getElementById("seljob03").hidden=false;
+  document.getElementById("seljob04").hidden=false;
+  document.getElementById("seljob05").hidden=false;
+ }
+}
+ </script>
+ <script type="text/javascript">
+ function myjob2() {
+ 	var qjob2 = document.getElementById("chj2");
+ 	var job2 = document.getElementById("j2");
+ 	var job3 = document.getElementById("j3");
+ 	var job4 = document.getElementById("j4");
+ 	var job5 = document.getElementById("j5");
+ 		if(qjob2.checked === true){
+ 		job2.hidden=false;
+ 		}else{
+ 		job2.hidden=true;
+ 		job3.hidden=true;
+ 		job4.hidden=true;
+ 		job5.hidden=true;
+ 		}
+ }
+function myjob3() {
+ 	var qjob3 = document.getElementById("chj3");
+ 	var job3 = document.getElementById("j3");
+	var job4 = document.getElementById("j4");
+	var job5 = document.getElementById("j5");
+
+ 		if(qjob3.checked === true){
+ 		job3.hidden=false;
+ 		}else{
+ 		job3.hidden=true;
+ 		job4.hidden=true;
+ 		job5.hidden=true;
+ 		}
+ }
+ function myjob4() {
+ 	var qjob4 = document.getElementById("chj4");
+ 	var job4 = document.getElementById("j4");
+	var job5 = document.getElementById("j5");
+
+ 		if(qjob4.checked === true){
+ 		job4.hidden=false;
+ 		}else{
+ 		job4.hidden=true;
+ 		job5.hidden=true;
+ 		}
+ }
+function myjob5() {
+ 	var qjob5 = document.getElementById("chj5");
+ 	var job5 = document.getElementById("j5");
+ 		if(qjob5.checked === true){
+ 		job5.hidden=false;
+ 		}else{
+ 		job5.hidden=true;
+ 		}
+ }
  </script>
  
  <script type="text/javascript">
@@ -1056,7 +1156,9 @@ function form2b() {
 
  <img src="https://cdn.axehonari.ir/images/3ad5af10-a016-11ee-bf4d-a1f993eb9fcd.jpg" style="width:340px">  
 <div class="hr"></div>
-<img style="width:90%;border:2px solid red"  id="preview" src="#" alt="پیش‌نمایش تصویر شما">
+<div style="width:98%;border;1px solid black;height:400px" >
+<img style="width:100%;"  id="preview" src="#" alt="پیش‌نمایش تصویر شما">
+</div>
 <div class="hr"></div><br>
 
 
@@ -1209,7 +1311,7 @@ document.getElementById("form2").hidden=false;
    <table>
     <tr>
      <td>
-      <input type="checkbox" id="ok">
+      <input type="checkbox" id="ok" onchange="accept()">
      </td>
      <td>
       <span>
@@ -1221,9 +1323,13 @@ document.getElementById("form2").hidden=false;
     </tr>
    </table>
   </div>
-
+  </form>
+  <form method="GET" action="zp/rq.php" >
+  <input type="hidden" id="mobile" name="mobile" >
+  <input type="hidden" id="description" name="description">
+  <input type="hidden" name="pool" value="250000" >
   </div>
- <button type="submit" class="btn btn-primary" style="width:90%;margin:2px" >تایید اطلاعات و پرداخت هزینه</button><br> 
+ <button disabled="disabled" id="submit"  type="submit" class="btn btn-primary" style="width:90%;margin:2px" >تایید اطلاعات و پرداخت هزینه</button><br> 
  <div onclick="form4b()" class="btn btn-success" style="width:90%;margin:1px" ><i class="icofont icofont-back" style="font-size:24px;margin:5px" ></i>صفحه قبل</div>
  </div>
 
@@ -1234,8 +1340,13 @@ document.getElementById("form2").hidden=false;
  document.getElementById("form4").hidden=true;
  document.getElementById("form3").hidden=false;
  }
- </script>
  
+ </script>
+
+ 
+ 
+ 
+
  <script type="text/javascript">
  var mydate = setInterval(
  function () {
@@ -1298,7 +1409,7 @@ var mydemo = setInterval(
 		var reshte = document.getElementById("reshte").value;
 		var phone = document.getElementById("phone").value;
 		var address = document.getElementById("address").value;
-		var sos = document.getElementById("sos").value;
+
 
 
 			document.getElementById("flname").innerHTML=fname + " " + lname;
@@ -1313,7 +1424,9 @@ var mydemo = setInterval(
 			document.getElementById("reshte2").innerHTML=reshte;
 			document.getElementById("phone2").innerHTML=phone;
 			document.getElementById("address2").innerHTML=address;
-			document.getElementById("sos2").innerHTML=sos;
+			document.getElementById("description").value=fname+ " " + lname + "|" + "کدملی" + idnum + "|" + "تاریخ تولد" + bday;
+			document.getElementById("mobile").value=phone;
+
 	} , 200);
 	
 var data2 = setInterval(
@@ -1335,8 +1448,5 @@ var data2 = setInterval(
 	 } ,1000);
  </script>
  
- </div></option>
- 
+ <script type="text/javascript" src="js/form.js"></script>
 </body>
-<script type="text/javascript" src="js/form.js"></script>
-</html>
