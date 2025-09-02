@@ -59,7 +59,7 @@ header {
 width:1000px;
 min-height:125px;
 border:3px solid black;
-	background-image: linear-gradient(0deg,green,yellow);
+background-image:url("media/fram01.jpg");
 margin:2px;
 
 }
@@ -140,16 +140,21 @@ background-image: linear-gradient(270deg,lightblue,white);
 	color:white;
 	text-align:center;
 	}
+	.m-tit> p {
+	text-align:center;
+	font-family:sahel;
+	font-weight:1000;
+	}
 	.m-body {
 	width:98%;
 	border:2px solid black;
 	min-height:200px;
 	}
-	.m-text {
+	.m-body> p {
 	border-top:1px solid black;
 	}
-	.m-text:hover {
-	background-color:yellow;
+	.m-body> p:hover  {
+	background-color:orange;
 	}
 	.nemad-text {
 	width:90%;
@@ -188,10 +193,17 @@ background-color:silver;
 	.body .subbody .subtitle {
 	border-radius:19px 19px 0 0;
 	}
-		.sb-text {
+	.body .subbody .subtitle .sb-text {
 		margin:0 20px 0 0;
+		
 		}
-
+	.body .subbody .subtitle .dt-text {
+	margin-right:340px;
+	font-family:vazir;
+	font-size:14px;
+	color:white;
+	text-align:left;
+	}
 	.subbody .matn {
 	display:inline-block;
 	}
@@ -234,7 +246,9 @@ color:darkblue;
 font-family:sahelblack;
 
 }
-
+#center {
+text-align:center;
+}
 </style>
 
 
@@ -272,21 +286,18 @@ font-family:sahelblack;
  <center>
  <div class="r-menu">
   <div class="m-tit" >
-   <p>عنوان</p>
+   <p id="center" >عنوان</p>
   </div>
   <div class="m-body" >
-  <p class="m-text" >ثبت نام و ثبت درخواست</p>
-  <p class="m-text" >راهنمای ثبت نام</p>
-  <p class="m-text" >پشتیبانی</p>
+  <p>ثبت نام و ثبت درخواست</p>
+  <p>راهنمای ثبت نام</p>
+  <p>پشتیبانی</p>
   </div>
   <div class="m-tit" >
    <p>نماد اعتماد الکترونیک</p>
   </div>
   <div class="m-body" >
-  <p class="nemad-text" >اعتماد الکترونیک</p>
-   <img src="https://mrseyed.github.io/msdata/enemadlogo.png" style="width:75%" >
-  <p class="nemad-text" >زرین پال</p>
-   <img src="https://mrseyed.github.io/msdata/zarinpal.png" style="width:75%;margin-top:5px" >
+   <p>1</p>
   </div>
   
  </div>
@@ -305,10 +316,10 @@ font-family:sahelblack;
    </span>
    </marquee>
   </div>
-  <p>سایت درحال بازسازی و راه اندازی است</p>
   <div class="subbody" >
    <div class="title subtitle" >
-    <span class="sb-text">فرم ثبت نام و ثبت درخواست متقاضیان</span>
+    <span class="sb-text">عنوان مطلب</span>
+    <span class="dt-text" >23:55 - 1404/06/10</span>
    </div>
    <div class="matn">
    <form action="zp/rq.php" method="POST" >
@@ -324,20 +335,16 @@ font-family:sahelblack;
   <p>عنوان</p>
  </div>
  <div class="m-body" >
- <p class="m-text" >ثبت نام و ثبت درخواست</p>
- <p class="m-text" >راهنمای ثبت نام</p>
- <p class="m-text" >پشتیبانی</p>
+ <p>1</p>
+ <p>2</p>
+ <p>3</p>
  </div>
  <div class="m-tit" >
-  <p>نماد اعتماد الکترونیک</p>
+  <p>منو</p>
  </div>
- <div class="m-body" >
- <p class="nemad-text" >اعتماد الکترونیک</p>
-  <img src="https://mrseyed.github.io/msdata/enemadlogo.png" style="width:75%" >
- <p class="nemad-text" >زرین پال</p>
-  <img src="https://mrseyed.github.io/msdata/zarinpal.png" style="width:75%;margin-top:5px" >
+ <div class="m-body">
+  <p>4</p>
  </div>
- 
 </div>
 
 
