@@ -1,2 +1,0 @@
-# mrseyed.github.io
-آقاسید
