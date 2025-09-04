@@ -32,9 +32,12 @@ document.getElementById("sec").innerHTML = seconds;
 
 
 
-
   if (distance < 10) { 
     clearInterval(x);
     document.getElementById("notime").innerHTML = "زمان به اتمام رسیده است";
   }
 }, 1000);
+
+
+
+

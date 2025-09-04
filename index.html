@@ -189,7 +189,7 @@ background-color:silver;
 	padding: 0 0px 20px 0px;
 	border: 2px ridge gray;
 	border-radius: 20px 20px 0 0;
-	min-height:500px;
+	min-height:100px;
 	background-image: linear-gradient(120deg,lightblue,lightyellow);
 	}
 	.body .subbody .subtitle {
@@ -219,10 +219,22 @@ width:95%;
 border-top:5px double brown;
 margin: 20px 0 20px 0;
 }
-
+.myhr1 {
+border-top:4px dotted brown;
+width:85%;
+margin: 10px 0 0px 0;
+}
+.myhr2 {
+border-top:4px dotted darkgreen;
+width:95%;
+margin:2px 0 10px 0;
+}
 .kadr0 {
+
 border:1px solid black;
-border-radius:8px;
+border-radius:10px 0 0 10px;
+padding:5px 5px 10px 5px;
+
 }
 .kadr {
 width:60%;
@@ -245,12 +257,13 @@ padding:5px;
 	color:gold;
 	}
 .kadr2 {
-
+padding:5px 5px 10px 5px;
 background-image:linear-gradient(0deg, black, gray);
 min-height:100px;
 transform:80%;
 border:1px solid black;
-border-radius: 10px;
+border-radius:0 10px 10px 0;
+min-height:200px;
 }
 q {
 color:red;
@@ -317,6 +330,7 @@ margin:10px 20px 10px 20px;
 	margin:2px;
 	background-color:brown;
 	text-align:center;
+	border-style:;
 	}
 li {
 font-size:13.5px;
@@ -437,6 +451,25 @@ width:100px;
    </div>
    </center>
   </timer>
+  
+  <div class="subbody" >
+   <div class="title subtitle" >
+    <span class="sb-text">
+       <i class="icofont-brand-android-robot" ></i>
+جدیدترین  محصولات
+    </span>
+   </div>
+   <div class="matn">
+   <form action="zp/rq.php" method="POST" >
+    <div class="reg">
+    
+    </div>
+   </form>
+  </div>
+ </div>
+
+  
+  
   <div class="subbody" >
    <div class="title subtitle" >
     <span class="sb-text">
@@ -476,7 +509,10 @@ width:100px;
      <p3>
 💥     در آینده نزدیک امکان پرداخت خودکار اقساط وام، پرداخت خودکار قبوض، انتقال وجه خودکار نیز راه اندازی خواهد شد.
      </p3>
-     <div class="hr" ></div>
+     <center>
+     <div class="myhr1" ></div>
+     <div class="myhr2" ></div>
+     </center>
      <p2>
      نسخه آزمایشی برای تست کاربران متقاضی نیز فراهم شده تا بتوانند از شیوه کارکرد و امکانات برنامه بهتر بهرمند شوند.
      </p2>
@@ -523,11 +559,14 @@ width:100px;
        </li>
        
       </ul>
-      <q class="roya yellow fs14" >
+      <q class="vazir yellow fs13" >
    
    بعد از خرید نرم‌افزار، هرگاه که برنامه به روزرسانی بشود، یک نسخه کامل برایتان ارسال میگردد تا بتوانید آن را نصب کنید.
       </q>
      </div>
+     </td>
+     <td style="border-right:3px dashed darkgreen;border-left:3px dashed darkgreen;" >
+     
      </td>
      <td style="width:300px" >
       <div class="kadr0 bk-gry h200p">
@@ -535,11 +574,28 @@ width:100px;
        نسخه آزمایشی این برنامه نیز موجود است که میتوانید از طریق لینک زیر دانلود کنید.
        </p>
        <center>
-       <button class="btn btn-primary" >دانلود نسخه آزمایشی 2روزه</button>
-       <hr>
+       <button class="btn btn-primary" disabled="disabled" >
+       دانلود نسخه آزمایشی 2روزه
+       (غیرفعال)
+       </button>
+	<br>
        <q class="yellow fs13" >خرید برنامه</q>
        <p class="irsbk fs14 lgreen center" >۞قیمت: 550,000 ریال۞</p>
-       <button class="btn btn-warning" disabled="disabled" >غیرقابل پرداخت</button>
+       <button class="btn" style="background-color:white;font-family:irsblack"  disabled="disabled" >
+       تا
+       <span id="day2" ></span>
+
+       <span id="hr2" ></span>
+
+       <span id="min2"  ></span>
+
+       <span id="sec2" ></span>
+       آینده
+       ،
+قابلیت خرید فعال خواهد شد
+       
+       
+       </button>
        </center>
       </div>
      </td>
@@ -621,6 +677,14 @@ width:100px;
     </td>
     </tr>
     </table>
+    <hr>
+    <center>
+    <div class="kadr0 b-dblue  w70" >
+     <p class="yekan white fs18 mrg5" >
+به دلیل تازه تاسیس بودن وبسایت، هنوز درگاه پرداخت آنلاین فعالسازی نشده، طبق شمارش معکوسی که در بالای صفحه قرار دادیم، انشاالله تا پایان این زمان امکان ثبت درخواست فراهم خواهد بود.
+     </p>
+    </div>
+    </center>
   </div>
   </form>
  </div>
@@ -649,7 +713,7 @@ width:100px;
 <center>
 <div class="l-menu">
  <div class="m-tit" >
-  <p>عنوان</p>
+  <p>آرشیو</p>
  </div>
  <div class="m-body" >
  <p>1</p>
@@ -657,7 +721,7 @@ width:100px;
  <p>3</p>
  </div>
  <div class="m-tit" >
-  <p>منو</p>
+  <p>دسته بندی محصولات</p>
  </div>
  <div class="m-body">
   <p>4</p>
@@ -672,7 +736,20 @@ width:100px;
 </body>
 <script type="text/javascript" src="js/timer.js"></script>
 <script type="text/javascript">
+var down = setInterval(() => {
+var mysec = document.getElementById("sec").innerText;
+var mymin = document.getElementById("min").innerText;
+var myhr = document.getElementById("hr").innerText;
+var myday = document.getElementById("day").innerText;
+	document.getElementById("sec2").innerHTML="" + mysec + "ثانیه";
+	document.getElementById("min2").innerHTML="" + mymin + "دقیقه";
+	document.getElementById("hr2").innerHTML="" + myhr + "ساعت";
+	document.getElementById("day2").innerHTML="" + myday + "روز";
 
+
+} ,1000);
+</script>
+<script type="text/javascript">
 var ptime = new persianDate();
 var tarikh = ptime.format("DD  /  MM  /  YYYY");
 var rooz = ptime.format("dddd");
