@@ -127,7 +127,7 @@ min-height:1000px;
 border:2px solid black;
 right:0;
 position:absolute;
-margin:0px 840px 0 1px;
+margin:0px 829px 0 1px;
 background-image: linear-gradient(270deg,lightblue,white);
 }
 
@@ -164,7 +164,7 @@ background-image: linear-gradient(270deg,lightblue,white);
 .body {
 width:645px;
 position:absolute;
-margin-right:180px;
+margin-right:182px;
 border:2px solid black;
 min-height:1000px;
 background-color:silver;
@@ -197,7 +197,7 @@ background-color:silver;
 		margin:0 20px 0 0;
 		
 		}
-	.body .subbody .subtitle .dt-text {
+	.dt-text {
 	margin-right:50px;
 	font-family:vazir;
 	font-size:14px;
@@ -213,6 +213,8 @@ width:95%;
 border-top:5px double brown;
 margin: 20px 0 20px 0;
 }
+
+
 .kadr {
 width:60%;
 border:2px solid gray;
@@ -231,8 +233,16 @@ padding:5px;
 	.kadr > table > tbody > tr > td {
 	font-family:led07;
 	font-size:50px;
-	color:aqua;
+	color:gold;
 	}
+.kadr2 {
+width:250px;
+background-image:linear-gradient(0deg, black, gray);
+min-height:100px;
+transform:80%;
+border:1px solid black;
+border-radius: 10px;
+}
 q {
 color:red;
 font-family:parastoo;
@@ -268,14 +278,14 @@ font-size:14px;
 text-align:justify;
 margin:10px 20px 10px 20px;
 }
-	.reg> p2 {
+	p2 {
 	font-family:irsbold;
 	font-size:14px;
 	text-align:justify;
 	margin:5px 20px 10px 5px;
 	color:navy;
 	}
-	.reg> p3 {
+	p3 {
 	font-family:yekan;
 	font-weight:1000;
 	font-size:14px;
@@ -284,9 +294,24 @@ margin:10px 20px 10px 20px;
 	color: brown;
 	}
 	p4 {
-	font-family:shabnambold;
-	color:red;
+	font-family:irsulight;
+	font-size:13px;
+	color:white;
 	}
+	.p5 {
+	font-family:sahelblack;
+	color:lightblue;
+	border:1px solid gold;
+	border-radius:5px;
+	width:97%;
+	margin:2px;
+	background-color:brown;
+	text-align:center;
+	}
+li {
+font-size:13.5px;
+margin-right:-10px;
+}
 i {
 font-size:25px;
 color:white;
@@ -352,7 +377,8 @@ width:100px;
  <div class="body">
   
   <div class="title">
-   <marquee direction="right">
+  <center>
+   <marquee direction="right" style="width:350px" >
    <span style="margin: 0 20px 0 0;" ><i style="font-size:22px;color:gold"  class="icofont-warning" ></i>
 توجه:
    <i style="font-size:22px;color:gold"  class="icofont-warning" ></i></span>
@@ -360,6 +386,7 @@ width:100px;
    سایت درحال راه اندازی و بازسازی است
    </span>
    </marquee>
+   </center>
   </div>
   <timer>
    <center>
@@ -379,20 +406,25 @@ width:100px;
      </thead>
      <tbody>
      <tr>
-      <td><span id="sec" >00</span></td>
+      <td><span id="sec" style="font-size:30px;color:white" >00</span></td>
       <td>.</td>
-      <td><span id="min" >00</span></td>
-      <td>:</td>
-      <td><span id="hr" >00</span></td>
+      <td><span id="min" style="color:lightgreen" >00</span></td>
+      <td><span id="ss">:</span></td>
+      <td><span id="hr" style="color:lightblue" >00</span></td>
       <td>|</td>
-      <td><span id="day" >0</span></td>
+      <td><span id="day" style="color:lightyellow" >0</span></td>
      </tr>
      </tbody>
+     <tfoot>
+      <tr>
+       <td colspan="7" ><span id="notime">...</span></td>
+      </tr>
+     </tfoot>
     </table>
    </div>
    </center>
   </timer>
-  <div class="subbody" >
+  <div ,class="subbody" >
    <div class="title subtitle" >
     <span class="sb-text">
        <i class="icofont-brand-android-robot" ></i>
@@ -435,19 +467,28 @@ width:100px;
      <p2>
      نسخه آزمایشی برای تست کاربران متقاضی نیز فراهم شده تا بتوانند از شیوه کارکرد و امکانات برنامه بهتر بهرمند شوند.
      </p2>
-     <p3>
+    <div class="kadr2" >
+     <div class="p5" >
      مشخصات برنامه:
-     </p3>
+     </div>
      
-      <ul style="text-align:right" >
+      <ul style="text-align:right" class="white" >
        <li>
+       
        سیستم عامل:
        
        <p4>
 اندروید +5
        </p4>
        </li>
+       <li>
+       تاریخ انتشار:
+       <p4>
+       1404/03/01
+       </p4>
+       </li>
       </ul>
+     </div>
       <p>
      برای درخواست نسخه آزمایشی کافی است از طریق برنامه واتساپ، درخواست خود را به شماره زیر مطرح کنید.
      </p><br>
@@ -491,7 +532,7 @@ width:100px;
    <div class="title subtitle" >
     <span class="sb-text">
     <i class="icofont-warning" ></i>
-    
+    سلان
     </span>
     <span class="dt-text" >23:55 - 1404/06/10</span>
    </div>
@@ -504,6 +545,7 @@ width:100px;
   </div>
    </div>
 </div>
+<center>
 <div class="l-menu">
  <div class="m-tit" >
   <p>عنوان</p>
@@ -520,32 +562,34 @@ width:100px;
   <p>4</p>
  </div>
 </div>
+</center>
 
-<paein>
-<h1>hh</h1>
 
-</paein>
+
+
+
 </body>
 <script type="text/javascript" src="js/timer.js"></script>
 <script type="text/javascript">
-document.getElementById("sec").innerHTML=seconds;
-</script>
-<script type="text/javascript">
+
 var ptime = new persianDate();
 var tarikh = ptime.format("DD  /  MM  /  YYYY");
 var rooz = ptime.format("dddd");
+document.getElementById("ss").style.color;
 		document.getElementById("tarikh").innerHTML=tarikh;
 var mytime = setInterval(
 	function () {
 	var ptime2 = new persianDate();
 	var saat = ptime2.format("ss  ;  mm  :  HH");
-
-
-
 		document.getElementById("saat").innerHTML=saat;
-
-	}
-, 100);
+},1000);
+const ss = document.getElementById("ss");
+ss.classList.add("black");
+var myss = setInterval (() => {
+ss.classList.toggle("black");
+ss.classList.toggle("gold");
+}
+, 1000);
 
 </script>
 </html>
