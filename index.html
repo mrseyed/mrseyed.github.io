@@ -33,7 +33,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  <link rel="stylesheet" type="text/css" href="msdata/fonts/icofont.css">
  <link rel="stylesheet" type="text/css" href="msdata/fonts/fonts.css">
  <link rel="stylesheet" type="text/css" href="msdata/css/bootstrap.css">
- <link rel="stylesheet" type="text/css" href="msdata/fonts/bs icons/bootstrap-icon.min.css">
+ oo<link rel="stylesheet" type="text/css" href="msdata/fonts/bs icons/bootstrap-icon.min.css">
  <script type="text/javascript" src="msdata/js/persian-date.js"></script>
 </head>
 
@@ -264,7 +264,7 @@ min-height:100px;
 transform:80%;
 border:1px solid black;
 border-radius:0 10px 10px 0;
-min-height:200px;
+
 }
 q {
 color:red;
@@ -452,7 +452,14 @@ width:100px;
    </div>
    </center>
   </timer>
-  
+  <center>
+  <div class="kadr0 b-dblue  w70" >
+   <p class="yekan white fs18 mrg5" >
+  به دلیل تازه تاسیس بودن وبسایت، هنوز درگاه پرداخت آنلاین فعالسازی نشده، طبق شمارش معکوسی که در بالای صفحه قرار دادیم، انشاالله تا پایان این زمان امکان ثبت درخواست فراهم خواهد بود.
+   </p>
+   
+  </div>
+  </center>
   <div class="subbody" >
    <div class="title subtitle" >
     <span class="sb-text">
@@ -525,6 +532,7 @@ width:100px;
       <div class="p5 white">
      مشخصات برنامه:
      </div>
+     <br>
       <ul style="text-align:right" class="white" >
        <li>
        
@@ -679,14 +687,95 @@ width:100px;
     </td>
     </tr>
     </table>
-    <hr>
-    <center>
-    <div class="kadr0 b-dblue  w70" >
-     <p class="yekan white fs18 mrg5" >
-به دلیل تازه تاسیس بودن وبسایت، هنوز درگاه پرداخت آنلاین فعالسازی نشده، طبق شمارش معکوسی که در بالای صفحه قرار دادیم، انشاالله تا پایان این زمان امکان ثبت درخواست فراهم خواهد بود.
-     </p>
-    </div>
-    </center>
+<center>
+<div class="myhr1" ></div>
+<div class="myhr2" ></div>
+</center>
+<p2>
+نسخه آزمایشی برای تست کاربران متقاضی نیز فراهم شده تا بتوانند از شیوه کارکرد و امکانات برنامه بهتر بهرمند شوند.
+</p2>
+<center>
+   <table>
+    <tr>
+<td style="width:300px" >
+<div class="kadr2 bk-gry">
+ <div class="p5 white">
+مشخصات برنامه:
+</div>
+ <ul style="text-align:right" class="white" >
+  <li>
+  
+برق ورودی
+  
+  <p4>
+220ولت
+  </p4>
+  </li>
+  <li>
+گارانتی
+  <p4>
+16ماه
+  </p4>
+  </li>
+  <li>
+  نسخه:
+  <p4>
+  1
+  </p4>
+  </li>
+  <li>
+  سازنده:
+  <p4>
+امگا
+  </p4>
+  </li>
+  <li>
+نحوه ارسال:
+  <p4>
+پست پیشتاز
+  </p4>
+  </li>
+  
+ </ul>
+ <q class="vazir yellow fs13" >
+   
+هزینه ارسال پستی هنگام پرداخت جداگانه محاسبه می‌شود.
+ </q>
+</div>
+</td>
+<td style="border-right:3px dashed darkgreen;border-left:3px dashed darkgreen;" >
+
+</td>
+<td style="width:300px" >
+ <div class="kadr0 bk-gry">
+
+  <center>
+  <q class="yellow fs16" >خرید دستگاه</q>
+  <br>
+  <p class="irsbk fs14 white center" >۞قیمت: 3,960,000 ریال۞</p>
+  <br>
+  <button class="btn btn-warning" style="font-family:irsblack;"  disabled="disabled" >ثبت درخواست</button>
+  <br><br><span class="yellow" >
+  تا
+  <span class="white"  id="day3" ></span>
+
+  <span class="white"  id="hr3" ></span>
+
+  <span class="white"  id="min3"  ></span>
+
+  <span class="white"  id="sec3" ></span>
+  آینده
+<br>
+قابلیت خرید فعال خواهد شد
+  
+  </span>
+
+  </center>
+ </div>
+</td>
+    </tr>
+   </table>
+
   </div>
   </form>
  </div>
@@ -747,6 +836,10 @@ var myday = document.getElementById("day").innerText;
 	document.getElementById("min2").innerHTML="" + mymin + "دقیقه";
 	document.getElementById("hr2").innerHTML="" + myhr + "ساعت";
 	document.getElementById("day2").innerHTML="" + myday + "روز";
+	 document.getElementById("sec3").innerHTML="" + mysec + "ثانیه";
+	 document.getElementById("min3").innerHTML="" + mymin + "دقیقه";
+	 document.getElementById("hr3").innerHTML="" + myhr + "ساعت";
+	 document.getElementById("day3").innerHTML="" + myday + "روز";
 
 
 } ,1000);
