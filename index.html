@@ -30,10 +30,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
  <link rel="stylesheet" type="text/css" href="css/style.css">
  <link rel="stylesheet" type="text/css" href="msdata/css/mrseyed.css">
  <link rel="stylesheet" type="text/css" href="msdata/fonts/fa.min.css">
+  <link rel="stylesheet" type="text/css" href="css/stye.css.css">
  <link rel="stylesheet" type="text/css" href="msdata/fonts/icofont.css">
  <link rel="stylesheet" type="text/css" href="msdata/fonts/fonts.css">
  <link rel="stylesheet" type="text/css" href="msdata/css/bootstrap.css">
- oo<link rel="stylesheet" type="text/css" href="msdata/fonts/bs icons/bootstrap-icon.min.css">
+ <link rel="stylesheet" type="text/css" href="msdata/fonts/bs icons/bootstrap-icons.min.css">
  <script type="text/javascript" src="msdata/js/persian-date.js"></script>
 </head>
 
@@ -67,11 +68,12 @@ margin:2px;
 }
 	.datetime-bar {
 	width:100%;
-	min-height:38px;
+	height:38px;
 	background-color:black;
 	border:2px solid brown;
 	color:yellow;
 	margin-top:20px;
+	font-size:15px;
 	}
 	.datetime-bar table {
 	margin: 2px 2px 2px 2px;
@@ -113,50 +115,66 @@ margin:2px;
 		padding:1px;
 		color:;
 		}
-		
+/* ⚠️⚠️⚠️ ‌🇧‌🇴‌🇩‌🇾 ⚠️⚠️⚠️ */
+.tbody {
+text-align:center;
+}
+.td {
+width:171px;
+}
+.th {
+width:646px;
+}
 .r-menu {
 width:170px;
 min-height:1000px;
 border:2px solid black;
-right:0;
-position:absolute;
-margin:0px 10px 0 1px;
+border-radius:4px;
+padding-right:2px;
+margin-top:0px;
 background-image: linear-gradient(270deg,lightblue,white);
 }
 .l-menu {
 width:170px;
 min-height:1000px;
 border:2px solid black;
-right:0;
-position:absolute;
-margin:0px 829px 0 1px;
+border-radius:4px;
 background-image: linear-gradient(270deg,lightblue,white);
 }
 
 	.m-tit {
-	width:98%;
-	border:0.5px solid black;
+	width:162px;
+	border:1px solid black;
+	border-radius:8px 8px 0 0;
 	min-height:25px;
 	margin-top:3px;
-	background-image: linear-gradient(180deg,red,black);
+	  background-image:url("./media/myban1.jpg");
 	color:white;
 	text-align:center;
 	}
-	.m-tit> p {
+	.m-tit > p {
 	text-align:center;
 	font-family:sahel;
 	font-weight:1000;
 	}
 	.m-body {
-	width:98%;
+	width:162px;
 	border:2px solid black;
 	min-height:200px;
+	padding:5px;
 	}
 	.m-body> p {
 	border-top:1px solid black;
+	font-size:13px;
+	font-family:irsbold;
+	padding:3px;
 	}
 	.m-body> p:hover  {
 	background-color:orange;
+	border-radius:5px;
+	font-size:15px;
+	color:navy;
+	
 	}
 	.nemad-text {
 	width:90%;
@@ -165,17 +183,20 @@ background-image: linear-gradient(270deg,lightblue,white);
 	}
 .body {
 width:645px;
-position:absolute;
-margin-right:182px;
-border:2px solid black;
+margin-right:100px;
+border:4px groove navy;
+border-top:0px;
+border-radius:10px 10px 0 0;
 min-height:1000px;
 background-color:silver;
+margin-top:0px;
 }
 	.body .title {
-	  background-image: linear-gradient(180deg,green, black);
-	  height:33px;
+	  background-image:url("./media/blue.ban1.webp");
+	  height:40px;
 	  width:100%;
 	  border:0.5px solid black;
+	  border-radius:10px 10px 0 0;
 	  font-family:lalezar;
 	  font-weight:100;
 	  font-size:20px;
@@ -184,29 +205,34 @@ background-color:silver;
 	  text-align:right;
 	  padding-top:1px
 	}
+	.img-tit {
+	position:absolute;
+	}
 	.body .subbody {
 	width:98%;
 	margin: 10px 5px 10px 5px;
+	padding-bottom:20px;
 	padding: 0 0px 20px 0px;
-	border: 2px ridge gray;
-	border-radius: 20px 20px 0 0;
+	border-right: 3px ridge navy;
+	border-left:3px groove navy;
+	border-radius: 10pt 10pt 0 0;
 	min-height:100px;
 	background-image: linear-gradient(120deg,lightblue,lightyellow);
 	}
 	.body .subbody .subtitle {
-	border-radius:19px 19px 0 0;
+	border-radius:9pt 9pt 0 0;
 	min-height:40px;
 	padding:3px;
 	}
 	.body .subbody .subtitle .sb-text {
 		margin:0 20px 0 0;
-		
+		color:white;
 		}
 	.dt-text {
 	margin-right:50px;
-	font-family:vazirl;
+	font-family:vazirbd;
 	font-size:14px;
-	color:white;
+	color:pink;
 	text-align:left;
 	}
 	.subbody .matn {
@@ -214,7 +240,10 @@ background-color:silver;
 	padding:5px 10px 5px 10px;
 
 	}
-		
+footer {
+border:2px solid red;
+height:200px;
+}
 .hr {
 width:95%;
 border-top:5px double brown;
@@ -348,8 +377,137 @@ min-height:200px;
 width:100px;
 }
 
+.titrcol {
+font-family:irsblack;
+font-size:20px;
+text-align:center;
+width:98%;
+height:60px;
+border-top-right-radius:5pt;
+border-top-left-radius:5pt;
+color:yellow;
+border:2px ridge darkblue;
+border-bottom:1px solid darkblue;
+background-image:url("./media/blue.ban1.webp");
+}
+.titrcol2 {
+font-family:parastoobold;
+font-size:20px;
+text-align:center;
+width:98%;
+height:60px;
+border-top-right-radius:5pt;
+border-top-left-radius:5pt;
+color:yellow;
+border:2px ridge red;
+border-bottom:1px solid red;
+background-image:url("./media/red.ban2.webp");
+}
+.footcol {
+width:98%;
+height:15px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+font-size:15px;
+border-top:1px solid black;
+border-right:2px ridge darkblue;
+border-left:2px ridge darkblue;
+border-bottom:2px ridge darkblue;
+background-image:url("./media/blue.ban1.webp");
+}
+.footcol2 {
+width:98%;
+height:25px;
+border-bottom-left-radius:5px;
+border-bottom-right-radius:5px;
+font-size:15px;
+border-top:0.5px solid black;
+border-right:2px ridge gray;
+border-left:2px ridge gray;
+border-bottom:2px ridge gray;
+background-image:url("./media/red.ban2.webp");
+}
+.txtbody {
+border-right:3px ridge darkblue;
+border-left:3px ridge darkblue;
+width:98%;
+min-height:120px;
+font-family:vazirm;
+font-size:15px;
+}
 
+.infoform {
+background-color:#E9FFDD;
+width:98%;
+border:2px ridge black;
+border-radius:5px;
+margin:-33px 5px 0 0;
+min-height:100px;
+}
+.txtbody2 {
+border-right:3px ridge brown;
+border-left:3px ridge brown;
+width:98%;
+min-height:120px;
+font-family:vazirm;
+font-size:15px;
+}
+.txtbody2 {
+border-right:3px ridge red;
+border-left:3px ridge red;
+width:98%;
+min-height:120px;
+font-family:vazirm;
+font-size:15px;
+}
 
+.ban-img {
+	width:100%;
+	height:40pt;
+	border:2px solid black;
+	border-radius:7px;
+	margin-top:-86pt;
+		}
+.banner {
+position:absolute;
+margin-right:10px;
+	}
+.txt2pic {
+font-family:titr1;
+font-weight:bolder;
+font-size:25pt;
+margin-right:10px;
+margin-top:-48pt;
+text-shadow:-3px -3px 3px white,1px 1px 0px white;
+color:black;
+}
+i {
+font-size:30px;
+color:yellow;
+}
+.new {
+
+}
+	.new > p {
+	font-family:irsblack;
+	font-size:15px;
+	}
+	.new > p:hover {
+	background-color:orange;
+	width:95%;
+	border: 2px solid white;
+	border-radius:10pt;
+	color:white;
+	font-size:17px;
+	}
+	.new > p > i {
+	font-size:22px;
+	margin-right:20px;
+	}
+	.new .hr1 {
+	border-top:1.5px solid gray;
+	width:95%;
+	}
 </style>
 
 
@@ -381,7 +539,13 @@ width:100px;
  </header>
  
  
- <center>
+ 
+ 
+ <table class="tbody">
+ <tbody>
+ 
+ <tr>
+ <td class="td" >
  <div class="r-menu">
   <div class="m-tit" >
    <p id="center" >عنوان</p>
@@ -399,10 +563,12 @@ width:100px;
   </div>
   
  </div>
+ </td>
  
- 
+ <!--⚠️⚠️ ‌🇧‌🇴‌🇩‌🇾 ⚠️⚠️-->
+ <th class="th" >
  </center>
- <div class="body">
+ <div class="body" id="body" >
   
   <div class="title">
   <center>
@@ -416,62 +582,114 @@ width:100px;
    </marquee>
    </center>
   </div>
-  <timer>
+
+
+  
+  <br>
+  
+<!--@@@🔵🔵🔵  ⛔⛔⛔⛔  🔵🔵🔵@@@-->
    <center>
-   <h2>شمارش معکوس راه اندازی وبسایت</h2>
-   <div class="kadr" >
-    <table style="text-align:center" >
-     <thead>
-     <tr>
-      <th style="width:60px" >ثانیه</th>
-      <th style="" >.</th>
-      <th style="width:60px" >دقیقه</th>
-      <th>:</th>
-      <th style="width:60px" >ساعت</th>
-      <th>|</th>
-      <th style="width:60px" >روز</th>
-     </tr>
-     </thead>
-     <tbody>
-     <tr>
-      <td><span id="sec" style="font-size:30px;color:white" >00</span></td>
-      <td>.</td>
-      <td><span id="min" style="color:lightgreen" >00</span></td>
-      <td><span id="ss">:</span></td>
-      <td><span id="hr" style="color:lightblue" >00</span></td>
-      <td>|</td>
-      <td><span id="day" style="color:lightyellow" >0</span></td>
-     </tr>
-     </tbody>
-     <tfoot>
-      <tr>
-       <td colspan="7" ><span id="notime">...</span></td>
-      </tr>
-     </tfoot>
-    </table>
-   </div>
-   </center>
-  </timer>
+  <div class="titrcol2" >
+  </div>
+  <div class="txtbody2 b-black" >
+  <div class="hc" >
+  <br>
+  <b><span class="banner txt2pic" >
+  <i class="icofont-star fs36 gold mrg10" ></i>
+پیام‌ها و اطلاعیه‌های مهم
+  </span>
+  <span class="banner"  >
+  </span><img src="./media/png2.png" class="ban-img" >
+  </div>
+  <div>
   <center>
-  <div class="kadr0 b-dblue  w70" >
-   <p class="yekan white fs18 mrg5" >
-  به دلیل تازه تاسیس بودن وبسایت، هنوز درگاه پرداخت آنلاین فعالسازی نشده، طبق شمارش معکوسی که در بالای صفحه قرار دادیم، انشاالله تا پایان این زمان امکان ثبت درخواست فراهم خواهد بود.
-   </p>
-   
+   <form class="infoform">
+ 
+ <timer>
+  <h2>شمارش معکوس راه اندازی وبسایت</h2>
+  <div class="kadr" >
+   <table style="text-align:center" >
+    <thead>
+    <tr>
+     <th style="width:60px" >ثانیه</th>
+     <th style="" >.</th>
+     <th style="width:60px" >دقیقه</th>
+     <th>:</th>
+     <th style="width:60px" >ساعت</th>
+     <th>|</th>
+     <th style="width:60px" >روز</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+     <td><span id="sec" style="font-size:30px;color:white" >00</span></td>
+     <td>.</td>
+     <td><span id="min" style="color:lightgreen" >00</span></td>
+     <td><span id="ss">:</span></td>
+     <td><span id="hr" style="color:lightblue" >00</span></td>
+     <td>|</td>
+     <td><span id="day" style="color:lightyellow" >0</span></td>
+    </tr>
+    </tbody>
+    <tfoot>
+     <tr>
+      <td colspan="7" ><span id="notime" class="saminb white fs20" >دوشنبه ۞ 24شهریور 1404</span></td>
+     </tr>
+    </tfoot>
+   </table>
   </div>
   </center>
+    </timer>
+    <center>
+    <div class="w90 center pd10">
+  <p class="yekan yellow fs18 mrg5" >
+    به دلیل تازه تاسیس بودن وبسایت، هنوز درگاه پرداخت آنلاین فعالسازی نشده، طبق شمارش معکوسی که در بالای صفحه قرار دادیم، انشاالله تا پایان این زمان امکان ثبت درخواست فراهم خواهد بود.
+  </p>
   
-  <div class="subbody" >
+    </div>
+   </form>
+  
+  </div>
+ </div>
+  <div class="footcol2">
+  .
+  </div>
+<!--@@@🔵🔵🔵  ⛔⛔⛔⛔  🔵🔵🔵@@@-->
+  <hr style="border-top: 2px dashed navy;width:90%" >
+  <div class="subbody" style="" >
    <div class="title subtitle" >
     <span class="sb-text">
-       <i class="icofont-brand-android-robot" ></i>
+       <i class="fa fa-cart-plus fs30 yellow" ></i>
 جدیدترین  محصولات
     </span>
    </div>
-   <div class="matn">
+   <div class="infoform" style="margin-top:4px" >
    <form action="zp/rq.php" method="POST" >
-    <div class="reg">
-    
+    <div class="reg right pd10">
+     <div class="new" >
+    			<div class="hr1" ></div>
+     <p class="maroon" >
+      <i class="bi-1-square-fill maroon" ></i>
+      
+برنامه اندروید ۞۞۞ هوش مصنوعی مدیریت پیامک‌های بانکی
+     </p>
+     			<div class="hr1" ></div>
+     <p class="green" >
+      <i class="bi-2-square-fill green" ></i>
+لوازم جانبی ۞۞۞ دستگاه هوشمند مدیریت شارژ گوشی تلفن همراه
+     </p>
+     			<div class="hr1" ></div>
+     <p class="blue" >
+      <i class="bi-3-square-fill blue" ></i>
+      شارژر هوشمند
+     </p>
+     			<div class="hr1" ></div>
+     <p>
+      <i class="bi-4-square-fill black" ></i>
+      شارژر هوشمند
+     </p>
+     			<div class="hr1" ></div>
+     </div>
     </div>
    </form>
   </div>
@@ -644,6 +862,8 @@ width:100px;
    </form>
   </div>
  </div>
+ <div class="footcol" style="margin-top:-20px" ></div> 
+ 
  
  <div class="subbody" >
   <div class="title subtitle" >
@@ -781,7 +1001,20 @@ width:100px;
   </div>
   </form>
  </div>
-  </div>
+</div>
+   <div class="footcol" style="margin-top:-20px" ></div> 
+   
+   
+   
+   <br>
+ </div>
+ 
+ 
+ 
+ 
+ 
+
+ 
   
   <!--div class="subbody" >
    <div class="title subtitle" >
@@ -799,12 +1032,14 @@ width:100px;
    </form>
   </div>
    </div-->
-   
+
 </div>
+</th>
 
-
+<!--⚠️⚠️  ‌🇱. ‌🇲‌🇪‌🇳‌🇺 ⚠️⚠️-->
+<td>
 <center>
-<div class="l-menu">
+<div class="l-menu" style="margin:" >
  <div class="m-tit" >
   <p>آرشیو</p>
  </div>
@@ -817,19 +1052,21 @@ width:100px;
   <p>دسته بندی محصولات</p>
  </div>
  <div class="m-body">
-  <p>4</p>
+  <p id="test" >4</p>
  </div>
 </div>
-</center>
+</td>
+</tr>
+</center></center></center></center></b></center>
 
-
-
-
-<CENTER>
-<SCRIPT LANGUAGE='JavaScript' SRC='http://www.jetphotos.com/jp_forum_sign.php?photogid=345444' TYPE='text/javascript'></SCRIPT></CENTER>
+</tbody>
+</table>
 </body>
 <script type="text/javascript" src="js/timer.js"></script>
 <script type="text/javascript">
+var hb = document.getElementById("body");
+var hf = document.getElementById("foot");
+
 var down = setInterval(() => {
 var mysec = document.getElementById("sec").innerText;
 var mymin = document.getElementById("min").innerText;
