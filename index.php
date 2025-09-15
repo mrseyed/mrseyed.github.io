@@ -708,41 +708,43 @@ color:yellow;
  <div class="title subtitle" >
   <span class="sb-text">
   <i class="icofont-brand-android-robot" ></i>
-  دستگاه هوشمند مدیریت شارژ گوشی تلفن همراه
+شارژر  وایرلس 80وات شیائومی 
   </span>
-  <span class="dt-text" >23:55 - 1404/06/10</span>
+  <span class="dt-text" >00:00 - 1404/06/24</span>
  </div>
  <div class="matn">
  <form action="zp/rq.php" method="POST" >
   <div class="reg">
    <p>
-واسه زمان بندی و شارژ گوشیت مشکل داری؟ دوست نداری شارژ باتری گوشیت از 80درصد بالاتر بره؟
+شارژر 80وات شیائومی وایرلس 
+<q>مدل MDY-31-MD</q>
+ که یک شارژر بسیار پیشرفته و باحاله که بدون سیم 6گوشیتون در سریعترین زمان ممکن شارژ میکنه.
    </p>
    <p2>
-یک دستگاه هوشمند که با تنظیم درصد شارژ مورد دلخواه، شارژر خود را به آن متصل کرده و به محض رسیدن درصد شارژ گوشی به مقدار موردنظر، برق شارژر را قطع میکند و از متصل بودن بیهوده شارژر به گوشی جلوگیری می کند.
+دیگه مشکل قطع بودن سوکت کابل شارژ یا اینکه ولتاژ شارژر مناسب باتری گوشیتون هست یا نه، را ندارید
    </p2>
    
   <hr> 
    <table border="1" class="b-gray" >
    <tr>
    <td class="pd5" >
-   <a href="https://mrseyed.github.io/media/post2/01.jpg" target="_blank" >
-   <img src="media/post2/01.jpg" width="95%" >
+   <a href="https://mrseyed.github.io/media/post3/01.jpg" target="_blank" >
+   <img src="media/post3/01.jpg" width="95%" >
    </a>
    </td>
    <td>
-   <a href="https://mrseyed.github.io/media/post2/02.jpg" target="_blank" >
-   <img src="media/post2/02.jpg" width="95%" >
+   <a href="https://mrseyed.github.io/media/post3/02.jpg" target="_blank" >
+   <img src="media/post3/02.jpg" width="95%" >
    </a>
    </td>
    <td>
-   <a href="https://mrseyed.github.io/media/post2/03.jpg" target="_blank" >
-   <img src="media/post2/03.jpg" width="95%" >
+   <a href="https://mrseyed.github.io/media/post3/03.jpg" target="_blank" >
+   <img src="media/post3/03.jpg" width="95%" >
    </a>
    </td>
    <td>
-   <a href="https://mrseyed.github.io/media/post2/04.jpg" target="_blank" >
-   <img src="media/post2/04.jpg" width="95%" >
+   <a href="https://mrseyed.github.io/media/post3/04.jpg" target="_blank" >
+   <img src="media/post3/04.jpg" width="95%" >
    </a>
    </td>
    </tr>
@@ -753,7 +755,7 @@ color:yellow;
 <div class="myhr2" ></div>
 </center>
 <p2>
-نسخه آزمایشی برای تست کاربران متقاضی نیز فراهم شده تا بتوانند از شیوه کارکرد و امکانات برنامه بهتر بهرمند شوند.
+.
 </p2>
 <center>
   <table>
@@ -761,7 +763,7 @@ color:yellow;
 <td style="width:300px" >
 <div class="kadr2 bk-gry">
 <div class="p5 white">
-مشخصات برنامه:
+مشخصات دستگاه:
 </div>
 <ul style="text-align:right" class="white" >
  <li>
@@ -775,19 +777,19 @@ color:yellow;
  <li>
 گارانتی
  <p4>
-16ماه
+24ماه
  </p4>
  </li>
  <li>
- نسخه:
+قدرت
  <p4>
- 1
+ 80W
  </p4>
  </li>
  <li>
  سازنده:
  <p4>
-امگا
+شیائومی
  </p4>
  </li>
  <li>
@@ -813,22 +815,13 @@ color:yellow;
  <center>
  <q class="yellow fs16" >خرید دستگاه</q>
  <br>
- <p class="irsbk fs14 white center" >۞قیمت: 3,960,000 ریال۞</p>
+ <p class="irsbk fs14 white center" >۞قیمت: 24,250,000 ریال۞</p>
  <br>
  <button class="btn btn-warning" style="font-family:irsblack;"  disabled="disabled" >ثبت درخواست</button>
  <br><br><span class="yellow" >
- تا
- <span class="white"  id="day3" ></span>
 
- <span class="white"  id="hr3" ></span>
-
- <span class="white"  id="min3"  ></span>
-
- <span class="white"  id="sec3" ></span>
- آینده
-<br>
-قابلیت خرید فعال خواهد شد
- 
+ <span class="white">
+درحال حاضر امکان ثبت درخواست وجود ندارد
  </span>
 
  </center>
