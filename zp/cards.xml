@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="cards.css"?>
+<?xml-stylesheet type="text/xsl" href="cards.xsl" ?>
+<CARDS>
+  <CARD>
+    <TYPE>ویــزا</TYPE>
+    <NAME>جسیکـا لی</NAME>
+    <NUM>4214178552664587</NUM>
+    <CVV>024</CVV>
+    <EXP>10/28</EXP>
+  </CARD>
+  <CARD>
+    <TYPE>ویــزا</TYPE>
+    <NAME>ملــو  کـوهی</NAME>
+    <NUM>4416413062745979</NUM>
+    <CVV>237</CVV>
+    <EXP>10/29</EXP>
+  </CARD>
+  <CARD>
+    <TYPE>ویــزا</TYPE>
+    <NAME>علی ریشی</NAME>
+    <NUM>4308515944242776</NUM>
+    <CVV>081</CVV>
+    <EXP>10/28</EXP>
+  </CARD>
+  <CARD>
+    <TYPE>ویــزا</TYPE>
+    <NAME>علـی فـوتی</NAME>
+    <NUM>4763327663673480</NUM>
+    <CVV>916</CVV>
+    <EXP>10/29</EXP>
+  </CARD>
+  <CARD>
+    <TYPE>ویــزا</TYPE>
+    <NAME>25 پتـو</NAME>
+    <NUM>4741460824840602</NUM>
+    <CVV>320</CVV>
+    <EXP>10/26</EXP>
+  </CARD>
+</CARDS>

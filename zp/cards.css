@@ -1,0 +1,54 @@
+@font-face {
+	font-family: iransans;
+	src:url(url('https://mrseyed.github.io/msdata/fonts/IranSans/Black/black.fanum.eot');
+	src:url(url('https://mrseyed.github.io/msdata/fonts/IranSans/Black/black.fanum.eot?#iefix') format('embedded-opentype'),
+	url(url('https://mrseyed.github.io/msdata/fonts/IranSans/Black/black.fanum.woff2') format('woff2'),
+	url(url('https://mrseyed.github.io/msdata/fonts/IranSans/Black/black.fanum.woff') format('woff'),
+	url(url('https://mrseyed.github.io/msdata/fonts/IranSans/Black/black.fanum.ttf') format('truetype');
+}
+@font-face {
+	font-family:  samin;
+	src:url(url('https://mrseyed.github.io/msdata/fonts/samin/bold/samin.eot');
+	src:url(url('https://mrseyed.github.io/msdata/fonts/samin/bold/samin.eot?#iefix') format('embedded-opentype'),
+	url(url('https://mrseyed.github.io/msdata/fonts/samin/bold/samin.woff2') format('woff2'),
+	url(url('https://mrseyed.github.io/msdata/fonts/samin/bold/samin.woff') format('woff'),
+	url(url('https://mrseyed.github.io/msdata/fonts/samin/bold/samin.ttf') format('truetype');
+}
+@font-face {
+	font-family:  yekan;
+	src:url(url('https://mrseyed.github.io/msdata/fonts/yekan/Yekan.eot');
+	src:url(url('https://mrseyed.github.io/msdata/fonts/yekan/Yekan.eot?#iefix') format('embedded-opentype'),
+	url(url('https://mrseyed.github.io/msdata/fonts/yekan/Yekan.woff2') format('woff2'),
+	url(url('https://mrseyed.github.io/msdata/fonts/yekan/Yekan.woff') format('woff'),
+	url(url('https://mrseyed.github.io/msdata/fonts/yekan/Yekan.ttf') format('truetype');
+}
+
+body {
+direction:rtl;
+font-family:iransans;
+font-size:16px;
+text-align:center;
+}
+kadr {
+border:2.5px double navy;
+border-radius: 3px 15px 3px 15px;
+background-image:linear-gradient(90deg, lightblue, lightgreen);
+width:400px;
+text-align:center;
+font-size:18px;
+}
+
+TYPE {
+width:90%;
+border:2px groove gray:
+background-color:black;
+color:yellow;
+font-family:iransans;
+font-size:24px;
+text-align:center;
+}
+NUM , NAME , CVV , EXP {
+font-family:samin;
+font-size:18px;
+
+}
