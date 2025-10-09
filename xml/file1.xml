@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="cd.css"?>
+<CATALOG>
+  <CD array="true">
+    <TITLE>سلام ای کونی</TITLE>
+    <TTITLE>عنوان</TTITLE>
+    <ARTIST>سیدمحمدکونی</ARTIST>
+    <TARTIST>اسم</TARTIST>
+    <COUNTRY>ایران</COUNTRY>
+    <TCOUNTRY>کشور</TCOUNTRY>
+    <COMPANY>نون خشک</COMPANY>
+    <TCOMPANY>شرکت</TCOMPANY>
+    <PRICE>چوس</PRICE>
+    <TPRICE>نرخ</TPRICE>
+    <YEAR>1300</YEAR>
+    <TYEAR>سال</TYEAR>
+  </CD>
+</CATALOG>

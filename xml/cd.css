@@ -1,0 +1,55 @@
+@font-face {
+	font-family: vazir;
+	src:url('../fonts/Vazir/Normal/Vazir.eot');
+	src:url('../fonts/Vazir/Normal/Vazir.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Vazir/Normal/Vazir.woff2') format('woff2'),
+	url('../fonts/Vazir/Normal/Vazir.woff') format('woff'),
+	url('../fonts/Vazir/Normal/Vazir.ttf') format('truetype');
+}
+@font-face {
+	font-family: vazirb;
+	src:url('../fonts/Vazir/Black/Vazir.eot');
+	src:url('../fonts/Vazir/Black/Vazir.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Vazir/BlackVazir.woff2') format('woff2'),
+	url('../fonts/Vazir/Black/Vazir.woff') format('woff'),
+	url('../fonts/Vazir/Black/Vazir.ttf') format('truetype');
+}
+CATALOG {
+margin-right:0px;
+text-align:right;
+}
+
+TTARTIST, TCOUNTRY, TPRICE, TYEAR, TCOMPANY {
+	width:250px;
+	background-color:black;
+	color:yellow;
+	font-family:vazir;
+	font-size:26px;
+	font-weight:bolder;
+	text-align:center;
+	display:list-item;
+}
+TARTIST, COUNTRY, PRICE, YEAR, COMPANY {
+	width:150px;
+	background-color:lightgreen;
+	color:darkblue;
+	font-family:vazir;
+	font-size:24px;
+	font-weight:bolder;
+	text-align:right;
+	display:inline-block;
+}
+TITLE, TTITLE {
+	display:;
+	background-color:black;
+	border:1px ridge red;
+	color:gold;
+	font-size:30px;
+	width:400px;
+	text-align:center;
+	margin-right:0;
+	right:0;
+	height:50px;
+	font-family:vazir;
+	font-weight:1000;
+}

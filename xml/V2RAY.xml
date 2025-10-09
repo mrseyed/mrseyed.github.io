@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <V2RAY>
+    <ID>code</ID>
+    <TITLE>title</TITLE>
+    <DATE>date</DATE>
+    <EXP>Exp date</EXP>
+    <STORAGE>gb</STORAGE>
+    <VALUE>data</VALUE>
+    <APP>Program</APP>
+  </V2RAY>
+</CONFIG>

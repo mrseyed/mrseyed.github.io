@@ -1,0 +1,44 @@
+@font-face {
+	font-family: vazir;
+	src:url('../fonts/Vazir/Normal/Vazir.eot');
+	src:url('../fonts/Vazir/Normal/Vazir.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Vazir/Normal/Vazir.woff2') format('woff2'),
+	url('../fonts/Vazir/Normal/Vazir.woff') format('woff'),
+	url('../fonts/Vazir/Normal/Vazir.ttf') format('truetype');
+}
+@font-face {
+	font-family: vazirb;
+	src:url('../fonts/Vazir/Black/Vazir.eot');
+	src:url('../fonts/Vazir/Black/Vazir.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/Vazir/BlackVazir.woff2') format('woff2'),
+	url('../fonts/Vazir/Black/Vazir.woff') format('woff'),
+	url('../fonts/Vazir/Black/Vazir.ttf') format('truetype');
+}
+TITLE {
+    background-color: black;
+    width: 100%;
+    color:gold;
+    height:30px;
+    font-family:vazirb;
+    font-size:28px;
+    border:2px solid red;
+    border-radius:10px;
+}
+CD {
+    display:inline-table;
+    margin-bottom: 30pt;
+    margin-right: 0;
+    font-family:vazir;
+}
+ARTIST {
+    display:inline-table;
+    color: brown;
+    font-size: 20pt;
+    font-family:vazir;
+}
+COUNTRY, PRICE, YEAR, COMPANY {
+    display:inline-table;
+    color: green;
+    margin-left: 20pt;
+    font-family:vazir;
+}

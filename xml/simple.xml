@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="simple.xsl" ?>
+<config>
+  <vpn>
+    <name>سرور استان</name>
+    <cont>نان خشک</cont>
+    <id>002</id>
+    <protocol>SSH</protocol>
+    <app>HOOK VPN</app>
+    <server>55سرور</server>
+    <link>https://mousavishekan.github.io</link>
+  </vpn>
+  <vpn>
+    <name>سرور کشور همدان</name>
+    <cont>ایتالیا</cont>
+    <id>001</id>
+    <protocol>V2Ray</protocol>
+    <app>HTTP Custom</app>
+    <server>55سرور</server>
+    <link>https://mousavishekan.github.io</link>
+  </vpn>
+</config>
