@@ -2,7 +2,7 @@
 <html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
 <body>
  <xsl:for-each select="CARDS/CARD">
-  <kadr>
+  <div>
    <h2>نوع</h2>
    <p><xsl:value-of select="TYPE"/></p>
    <ul>
@@ -23,8 +23,8 @@
      <xsl:value-of select="NAME"/>
     </li>
    </ul>
-   <hr>
-  </kadr>
+   <hr></hr>
+  </div>
  </xsl:for-each>
 </body>
 </html>
