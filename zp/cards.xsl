@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <html xsl:version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform">
-<body>
+
+<body dir="rtl" style="direction:rtl; text-align:center">
  <xsl:for-each select="CARDS/CARD">
-  <div>
+  <div style="width:60%; border:3px double navy; border-radius:15px 3px 15px 3px;background-color:lightgreen;">
    <h2>نوع</h2>
-   <p><xsl:value-of select="TYPE"/></p>
+   <xsl:value-of select="TYPE"/>
    <ul>
     <li>
-     <span>شماره کارت:</span>
+     <p>شماره کارت:</p>
      <xsl:value-of select="NUM"/>
     </li>
     <li>
-     <span>CVV2</span>
+     <p>CVV2</p>
      <xsl:value-of select="CVV"/>
     </li>
     <li>
-     <span>انقضا</span>
+     <p>انقضا</p>
      <xsl:value-of select="EXP"/>
     </li>
     <li>
-     <span>صاحب کارت</span>
+     <p>صاحب کارت</p>
      <xsl:value-of select="NAME"/>
     </li>
    </ul>
