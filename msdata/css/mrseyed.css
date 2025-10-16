@@ -1,0 +1,349 @@
+
+/* 🟤🟣🟠🔴 ‌🇨‌🇴‌🇱‌🇴‌🇷‌🇸 🟥🟪🟫⬛ */
+
+.black {
+color:black;
+}
+.gold {
+color:gold;
+}
+.white {
+color:white;
+}
+.green {
+color:green;
+}
+.lgreen {
+color:lightgreen;
+}
+.dgreen {
+color:darkgreen;
+}
+.blue {
+color:blue;
+}
+.lblue {
+color:lightblue;
+}
+.dblue {
+color:navy;
+}
+.lime {
+color:lime;
+}
+.silver {
+color:silver;
+}
+.gray {
+color:gray;
+}
+.brown {
+color:brown;
+}
+.yellow {
+color:yellow;
+}
+.gold {
+color:gold;
+}
+.orange {
+color:orange;
+}
+.red {
+color: red;
+}
+.b-black {
+background-color:black;
+}
+.b-gold {
+background-color:gold;
+}
+.b-white {
+background-color:white;
+}
+.b-green {
+background-color:green;
+}
+.b-lgreen {
+background-color:lightgreen;
+}
+.b-dgreen {
+background-color:darkgreen;
+}
+.b-blue {
+background-color:blue;
+}
+.b-lblue {
+background-color:lightblue;
+}
+.b-dblue {
+background-color:navy;
+}
+.b-lime {
+background-color:lime;
+}
+.b-silver {
+background-color:silver;
+}
+.b-gray {
+background-color:gray;
+}
+.b-brown {
+background-color:brown;
+}
+.b-yellow {
+background-color:yellow;
+}
+.b-gold {
+background-color:gold;
+}
+.b-orange {
+background-color:orange;
+}
+.b-red {
+background-color: red;
+}
+
+.bk-gry {
+background-image:linear-gradient(0deg, black, gray);
+}
+.maroon {
+color:maroon;
+}
+
+
+/* 🔵🔵🔵🔵.BLUE RENGE 🟦🟦🟦🟦 */
+
+.blue1 {
+color:#000033;
+}
+.blue2 {
+color: #000066
+}
+.blue3 {
+color: #000099;
+}
+.blue4 {
+color: #0000cc;
+}
+.blue5 {
+color: #0000ff;
+}
+.blue6 {
+color: #3333ff;
+}
+.blue7 {
+color: #6666ff;
+}
+.blue8 {
+color: #9999ff;
+}
+.blue9 {
+color: #ccccff
+}
+
+
+
+/* ⇱⇲ ↳↲ ‌🇦‌🇱‌🇮‌🇬‌🇳 ↳↲⇱⇲ */
+.right {
+text-align:right;
+}
+.center {
+text-align:center;
+}
+.left {
+text-align:left;
+}
+.justify {
+text-align:justify;
+}
+/* <<===  ‌🇼‌🇮‌‌🇩‌🇹‌🇭  ===>> */
+
+.w10 {
+width:10%;
+}
+.w20 {
+width:20%;
+}
+.w30 {
+width:30%;
+}
+.w40 {
+width:40%;
+}
+.w50 {
+width:50%;
+}
+.w60 {
+width:60%;
+}
+.w70 {
+width:70%;
+}
+.w80 {
+width:80%;
+}
+.w90 {
+width:90%;
+}
+.w95 {
+width:95%;
+}
+.w100 {
+width:100%;
+}
+.w98 {
+width:98%;
+}
+
+
+/* ⇑⇑⇑⇑⇑⇑⇑  ‌🇭‌🇪‌🇮‌🇬‌🇭‌🇹 ⇓⇓⇓⇓⇓⇓⇓ */
+
+.h30p {
+height:30px;
+}
+.h40p {
+height:40px;
+}
+.h50p {
+height:50px;
+}
+.h60p {
+height:60px;
+}
+.h70p {
+height:70px;
+}
+.h80p {
+height:80px;
+}
+.h90p {
+height:90px;
+}
+.h100p {
+height:100px;
+}
+
+
+.h200p {
+height:200px;
+}
+
+
+
+
+/* ‌🇵‌🇦‌🇩‌🇩‌🇮‌🇳‌🇬  */
+
+.pd5 {
+padding:5px;
+}
+.pd10 {
+padding:10px;
+}
+
+
+
+
+
+/* ‌🇧‌🇴‌🇷‌🇩‌🇪‌🇷 */
+
+.brad-5 {
+border-radius:5px;
+}
+.brad-10 {
+border-radius:10px;
+}
+.brad-15 {
+border-radius:15px;
+}
+.brad-20 {
+border-radius:20px;
+}
+.solid {
+border-style:solid;
+}
+.dott {
+border-style:dotted;
+}
+.dash {
+border-style:dashed;
+}
+.groove {
+border-style:groove;
+}
+.double {
+border-style:double;
+}
+.ridge {
+border-style:ridge;
+}
+.inset {
+border-style:inset;
+}
+.outset {
+border-style:outset;
+}
+
+
+.b1px {
+border-width:1px;
+}
+.b2px {
+border-width:2px;
+}
+.b3px {
+border-width:3px;
+}
+.b4px {
+border-width:4px;
+}
+.b5px {
+border-width:5px;
+}
+
+
+.br-gray {
+border-color:gray;
+}
+.br-silver {
+border-color:silver;
+}
+.br-red {
+border-color:red;
+}
+.br-black {
+border-color:black;
+}
+.br-brown {
+border-color:brown;
+}
+.br-gold {
+border-color:gold;
+}
+.br-blue {
+border-color:blue;
+}
+.br-dblue {
+border-color:navy;
+}
+.br-white {
+border-color:white;
+}
+.br-lime {
+border-color:lime;
+}
+
+
+/* ‌🇲‌🇦‌🇷‌🇬‌🇮‌🇳 */
+.mrg5 {
+margin:5px;
+}
+.mrg10 {
+margin:10px;
+}
+.mrg15 {
+margin:15px;
+}
+.mrg20 {
+margin:20px;
+}
