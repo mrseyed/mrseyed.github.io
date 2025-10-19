@@ -1,0 +1,213 @@
+
+/* 🟤🟣🟠🔴 ‌🇨‌🇴‌🇱‌🇴‌🇷‌🇸 🟥🟪🟫⬛ */
+
+.black {
+color:black;
+}
+.gold {
+color:gold;
+}
+.white {
+color:white;
+}
+.green {
+color:green;
+}
+.lgreen {
+color:lightgreen;
+}
+.dgreen {
+color:darkgreen;
+}
+.blue {
+color:blue;
+}
+.lblue {
+color:lightblue;
+}
+.dblue {
+color:navy;
+}
+.lime {
+color:lime;
+}
+.silver {
+color:silver;
+}
+.gray {
+color:gray;
+}
+.brown {
+color:brown;
+}
+.yellow {
+color:yellow;
+}
+.gold {
+color:gold;
+}
+.orange {
+color:orange;
+}
+.red {
+color: red;
+}
+.b-black {
+background-color:black;
+}
+.b-gold {
+background-color:gold;
+}
+.b-white {
+background-color:white;
+}
+.b-green {
+background-color:green;
+}
+.b-lgreen {
+background-color:lightgreen;
+}
+.b-dgreen {
+background-color:darkgreen;
+}
+.b-blue {
+background-color:blue;
+}
+.b-lblue {
+background-color:lightblue;
+}
+.b-dblue {
+background-color:navy;
+}
+.b-lime {
+background-color:lime;
+}
+.b-silver {
+background-color:silver;
+}
+.b-gray {
+background-color:gray;
+}
+.b-brown {
+background-color:brown;
+}
+.b-yellow {
+background-color:yellow;
+}
+.b-gold {
+background-color:gold;
+}
+.b-orange {
+background-color:orange;
+}
+.b-red {
+background-color: red;
+}
+
+.bk-gry {
+background-image:linear-gradient(0deg, black, gray);
+}
+
+/* ⇱⇲ ↳↲ ‌🇦‌🇱‌🇮‌🇬‌🇳 ↳↲⇱⇲ */
+.right {
+text-align:right;
+}
+.center {
+text-align:center;
+}
+.left {
+text-align:left;
+}
+.justify {
+text-align:justify;
+}
+/* <<===  ‌🇼‌🇮‌‌🇩‌🇹‌🇭  ===>> */
+
+.w50 {
+width:50%;
+}
+.w60 {
+width:60%;
+}
+.w70 {
+width:70%;
+}
+.w80 {
+width:80%;
+}
+.w90 {
+width:90%;
+}
+.w95 {
+width:95%;
+}
+.w100 {
+width:100%;
+}
+.w98 {
+width:98%;
+}
+
+
+/* ⇑⇑⇑⇑⇑⇑⇑  ‌🇭‌🇪‌🇮‌🇬‌🇭‌🇹 ⇓⇓⇓⇓⇓⇓⇓ */
+
+.h30p {
+height:30px;
+}
+.h40p {
+height:40px;
+}
+.h50p {
+height:50px;
+}
+.h60p {
+height:60px;
+}
+.h70p {
+height:70px;
+}
+.h80p {
+height:80px;
+}
+.h90p {
+height:90px;
+}
+.h100p {
+height:100px;
+}
+
+
+.h200p {
+height:200px;
+}
+
+
+
+
+/* ‌🇵‌🇦‌🇩‌🇩‌🇮‌🇳‌🇬  */
+
+.pd5 {
+padding:5px;
+}
+.pd10 {
+padding:10px;
+}
+
+
+
+
+
+/* ‌🇧‌🇴‌🇷‌🇩‌🇪‌🇷 */
+
+.br-5 {
+border-radius:5px;
+}
+.br-10 {
+border-radius:10px;
+}
+.br-15 {
+border-radius:15px;
+}
+.br-20 {
+border-radius:20px;
+}
