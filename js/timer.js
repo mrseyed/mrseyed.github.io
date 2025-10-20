@@ -1,5 +1,5 @@
 // تاریخ و زمان هدف
-var countDownDate = new Date("Oct 20, 2025 00:00:00").getTime();
+var countDownDate = new Date("Oct 30, 2025 00:00:00").getTime();
 var xy = 0;
 var x = setInterval(
 function() {
